@@ -5,17 +5,17 @@ import about from '../assets/about.jpg';
 const About = () => {
   return (
     <div className="w-full text-white py-16 px-4">
-      <div className="max-w-[1240px] flex flex-row gap-x-1">
+      <div className="max-w-[1240px] flex lg:flex-row md:flex-row flex-col gap-x-1">
         <img
           src={about}
-          className="mx-[10%] w-[500px] h-[550px] "
+          className="mx-[10%] w-[4 0%] h-[50%] my-6 md:text-center lg:text-left"
           alt="first"
         />
-        <div className="flex flex-col my-4">
-          <p className=" text-[34px] font-extrabold uppercase my-6">
+        <div className="flex flex-col my-4 md:text-left text-center m:mx[100px]">
+          <p className=" md:text-[34px] text-2xl font-extrabold uppercase my-6">
             What are the deviants?
           </p>
-          <p className=" text-base opacity-50 font-regular font-normal">
+          <p className=" md:text-base text-[14px] text-[#595959] font-normal">
             The Deviants are the first inhabitants of Astra Nova.
             <br /> <br />
             They're perfect genetic replicants of the 15 species of the Five
