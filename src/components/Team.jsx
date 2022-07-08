@@ -1,3 +1,5 @@
+import Tabs from '../Tab';
+
 /*
   This example requires Tailwind CSS v2.0+ 
   
@@ -36,16 +38,18 @@ const people = [
   // More people...
 ];
 
-export default function Example() {
+export default function Team() {
   return (
     <div className="text-white">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
-          <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-center">
-              Our Team
+          <div className="space-y-5 text-center sm:space-y-4">
+            <h2 className="text-3xl uppercase font-extrabold sm:text-4xl">
+              Meet Our Team
             </h2>
+            <p className="text-[#595959]">Created by many. Meet them all.</p>
           </div>
+          <Tabs />
           <ul
             role="list"
             className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
@@ -62,9 +66,9 @@ export default function Example() {
                   </div>
 
                   <div className="space-y-2 text-center">
-                    <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3>{person.name}</h3>
-                      <p className="text-indigo-600">{person.role}</p>
+                    <div className="text-lg leading-6 space-y-1">
+                      <h3 className="font-medium">{person.name}</h3>
+                      <p className="text-[#595959]">{person.role}</p>
                     </div>
                   </div>
                 </div>
