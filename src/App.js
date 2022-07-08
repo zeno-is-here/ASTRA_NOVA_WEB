@@ -1,9 +1,10 @@
 import About from './components/About';
 import Faq from './components/Faq';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import MidSection from './components/MidSection';
 import Navbar from './components/Navbar';
-import Example from './components/Team';
+import Team from './components/Team';
 import './styles.css';
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Hero />
       <MidSection />
       <About />
-      <Example />
+      <Team />
       <Faq />
+      <Footer />
     </>
   );
 }
