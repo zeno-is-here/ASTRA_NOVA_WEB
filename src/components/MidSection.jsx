@@ -4,7 +4,7 @@ import { Bounce, Reveal, Fade } from 'react-awesome-reveal';
 
 const MidSection = () => {
   return (
-    <div className="w-full text-white py-16 px-4 body-font">
+    <div className="w-full text-white py-8 px-4 body-font">
       <Fade cascade triggerOnce>
         <div className="max-w-[1240px] mx-auto text-center flex flex-col">
           <h1 class="title-font uppercase sm:text-[34px] text-2xl font-extrabold ">

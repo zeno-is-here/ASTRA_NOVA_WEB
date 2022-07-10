@@ -41,7 +41,7 @@ const people = [
 export default function Team() {
   return (
     <div className="text-white">
-      <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+      <div className="mx-auto py-16 px-4 max-w-7xl sm:px-6 lg:px-8">
         <div className="space-y-12">
           <div className="space-y-5 text-center sm:space-y-4">
             <h2 className="sm:text-[34px] text-2xl uppercase title-font font-extrabold ">
@@ -59,13 +59,13 @@ export default function Team() {
             {people.map((person) => (
               <li key={person.name}>
                 <div className="space-y-4">
-                  <div className="aspect-w-3 aspect-h-2">
-                    <img
-                      className="object-cover shadow-lg rounded-lg"
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </div>
+                  {/* <div className="aspect-w-3 aspect-h-2"> */}
+                  <img
+                    className="object-cover shadow-lg rounded-lg"
+                    src={person.imageUrl}
+                    alt=""
+                  />
+                  {/* </div> */}
 
                   <div className="space-y-2 text-center">
                     <div className="text-lg leading-6 space-y-1">

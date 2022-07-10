@@ -74,8 +74,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#07070e] text-white">
       <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-        <div className="mt-8 flex justify-start space-x-6">
-          <p>Follow us</p>
+        <div className="mt-8 flex justify-start space-x-5">
+          <p className="md:mx-1 mx-8">Follow us</p>
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -87,7 +87,7 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <p className="mt-8 text-center text-base">
+        <p className="mt-16 text-center text-base">
           &copy; ASTRA NOVA 2022 © All right reserved
         </p>
         <nav
