@@ -44,10 +44,12 @@ export default function Team() {
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
           <div className="space-y-5 text-center sm:space-y-4">
-            <h2 className="text-3xl uppercase font-extrabold sm:text-4xl">
+            <h2 className="sm:text-[34px] text-2xl uppercase title-font font-extrabold ">
               Meet Our Team
             </h2>
-            <p className="text-[#595959]">Created by many. Meet them all.</p>
+            <p className="text-[#595959] leading-relaxed">
+              Created by many. Meet them all.
+            </p>
           </div>
           <Tabs />
           <ul
@@ -67,8 +69,8 @@ export default function Team() {
 
                   <div className="space-y-2 text-center">
                     <div className="text-lg leading-6 space-y-1">
-                      <h3 className="font-medium">{person.name}</h3>
-                      <p className="text-[#595959]">{person.role}</p>
+                      <h3 className="font-medium title-font">{person.name}</h3>
+                      <p className="text-[#595959] body-font">{person.role}</p>
                     </div>
                   </div>
                 </div>
