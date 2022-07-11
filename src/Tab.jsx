@@ -16,7 +16,7 @@ export default function Tabs() {
         <select
           id="tabs"
           name="tabs"
-          className="block w-[150px] h-[50px] bg-black focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md text-white"
+          className="block w-[150px] h-[50px] bg-black focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md text-white bg-indigo-900 text-gray-200 px-4"
           defaultValue={tabs.find((tab) => tab.current).name}
         >
           {tabs.map((tab) => (
@@ -32,7 +32,7 @@ export default function Tabs() {
               href={tab.href}
               className={classNames(
                 tab.current
-                  ? 'bg-indigo-100 text-indigo-700'
+                  ? 'bg-indigo-900 text-gray-200'
                   : 'text-white hover:text-gray-400',
                 'px-3 py-2 font-normal text-base rounded-md'
               )}

@@ -38,7 +38,7 @@ function classNames(...classes) {
 export default function Faq() {
   return (
     <div className="text-white">
-      <div className="max-w-7xl mx-[8%] py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] uppercase">
           Frequently asked questions?
         </h2>
