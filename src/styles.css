@@ -2,9 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 body {
   background-color: #07070e;
+  font-family: 'Inter', Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2f2f4900;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(174, 85%, 42%);
+  border-radius: '12px';
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(174, 85%, 42%, 70%);
+  opacity: 0.5;
 }

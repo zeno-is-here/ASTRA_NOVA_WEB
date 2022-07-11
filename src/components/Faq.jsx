@@ -39,7 +39,7 @@ export default function Faq() {
   return (
     <div className="text-white">
       <div className="max-w-7xl mx-[8%] py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] title-font uppercase">
+        <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] uppercase">
           Frequently asked questions?
         </h2>
         <dl className="mt-6 space-y-6 divide-y">
@@ -49,7 +49,7 @@ export default function Faq() {
                 <>
                   <dt className="text-lg">
                     <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                      <span className="font-medium body-font text-[#ffffff]">
+                      <span className="font-medium text-[#ffffff]">
                         {faq.question}
                       </span>
                       <span className="ml-6 h-7 flex items-center">
@@ -72,9 +72,7 @@ export default function Faq() {
                     leaveTo="transform scale-95 opacity-0"
                   >
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base body-font text-[#595959]">
-                        {faq.answer}
-                      </p>
+                      <p className="text-base text-[#595959]">{faq.answer}</p>
                     </Disclosure.Panel>
                   </Transition>
                 </>
