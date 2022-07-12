@@ -1,15 +1,7 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { PlusSmIcon } from '@heroicons/react/solid';
 
-const user = {
-  name: 'Tom Cook',
-  email: 'tom@example.com',
-  imageUrl:
-    'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-};
 const navigation = [
   { name: 'Astra Nova', href: '#' },
   { name: 'Nft Collections', href: '#' },
@@ -18,22 +10,18 @@ const navigation = [
   { name: 'Social', href: '#' },
   { name: 'Wallpaper', href: '#' },
 ];
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
 export default function Example() {
   return (
-    <Disclosure as="nav">
+    <Disclosure as="nav" className="bg-transparent">
       {({ open }) => (
         <>
-          <div
-            className="pt-2"
-            style={{
-              background: 'transparent',
-            }}
-          >
-            <div className="flex justify-between h-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between h-20">
               <div className="flex">
                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                   {/* Mobile menu button */}
@@ -58,14 +46,16 @@ export default function Example() {
                     alt="Workflow"
                   />
                 </div>
-                <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
+                <div className="hidden bg-transparent md:ml-6 md:flex md:items-center md:space-x-4">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
                       className={classNames(
-                        'text-gray-300 hover:bg-gray-700 hover:text-white',
-                        'px-3 py-2 rounded-md text-base font-medium'
+                        item.current
+                          ? 'bg-gray-900 text-white'
+                          : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'px-3 py-2 rounded-md text-sm font-medium'
                       )}
                       aria-current={item.current ? 'page' : undefined}
                     >
@@ -78,16 +68,23 @@ export default function Example() {
                 <div className="flex-shrink-0">
                   <button
                     type="button"
-                    className=" w-[200px] inline-flex items-center justify-center py-3 mt-[5%] border-2 text-base font-semibold rounded-full shadow-sm text-white bg-transparent hover:bg-teal-600 hover:border-transparent"
+                    className="relative inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
                   >
-                    Connect Wallet
+                    <PlusSmIcon
+                      className="-ml-1 mr-2 h-5 w-5"
+                      aria-hidden="true"
+                    />
+                    <span>New Job</span>
                   </button>
+                </div>
+                <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
+                  {/* Profile dropdown */}
                 </div>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden">
+          <Disclosure.Panel className="md:hidden ">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -95,7 +92,9 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current
+                      ? 'bg-gray-900 text-white'
+                      : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

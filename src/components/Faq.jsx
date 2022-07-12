@@ -1,35 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Disclosure, Transition } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/outline';
-
-const faqs = [
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  // More questions...
-];
+import lol from '../utils/faq.json';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -43,7 +15,7 @@ export default function Faq() {
           Frequently asked questions?
         </h2>
         <dl className="mt-6 space-y-6 divide-y">
-          {faqs.map((faq) => (
+          {JSON.parse(JSON.stringify(lol)).map((faq) => (
             <Disclosure as="div" key={faq.question} className="pt-6">
               {({ open }) => (
                 <>
@@ -72,7 +44,10 @@ export default function Faq() {
                     leaveTo="transform scale-95 opacity-0"
                   >
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-[#595959]">{faq.answer}</p>
+                      <p
+                        dangerouslySetInnerHTML={{ __html: faq.answer }}
+                        className="text-base text-[#595959]"
+                      ></p>
                     </Disclosure.Panel>
                   </Transition>
                 </>
