@@ -1,6 +1,5 @@
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import { PlusSmIcon } from '@heroicons/react/solid';
 
 const navigation = [
   { name: 'Astra Nova', href: '#' },
@@ -66,16 +65,14 @@ export default function Example() {
               </div>
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <button
-                    type="button"
-                    className="relative inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
-                  >
-                    <PlusSmIcon
-                      className="-ml-1 mr-2 h-5 w-5"
-                      aria-hidden="true"
-                    />
-                    <span>New Job</span>
-                  </button>
+                  <div class="flex justify-center">
+                    <button
+                      type="button"
+                      className="md:w-[200px] w-[150px] inline-flex items-center justify-center py-3 mt-[5%] border border-white text-base font-semibold rounded-full shadow-sm text-white bg-transparent hover:bg-teal-600 hover:border-transparent"
+                    >
+                      Connect wallet
+                    </button>
+                  </div>
                 </div>
                 <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">
                   {/* Profile dropdown */}
