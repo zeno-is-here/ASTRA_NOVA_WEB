@@ -12,7 +12,7 @@ export default function Team() {
   };
 
   return (
-    <div className="text-white">
+    <div className="text-white flex flex-row">
       <div className="mx-auto py-16 max-w-7xl px-12 lg:px-8">
         <div className="space-y-12">
           <div className="space-y-5 text-center sm:space-y-4">
@@ -67,6 +67,7 @@ export default function Team() {
           </ul>
         </div>
       </div>
+      <div className="w-[3%] h-[500px] blur-[35px] bg-[#c4410d] opacity-[0.35] rounded-[100%]"></div>
     </div>
   );
 }

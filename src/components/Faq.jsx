@@ -9,11 +9,14 @@ function classNames(...classes) {
 
 export default function Faq() {
   return (
-    <div className="text-white">
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+    <div className="text-white flex flex-row">
+      <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%]"></div>
+
+      <div className="w-[80%] mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] uppercase">
           Frequently asked questions?
         </h2>
+
         <dl className="mt-6 space-y-6 divide-y">
           {JSON.parse(JSON.stringify(lol)).map((faq) => (
             <Disclosure as="div" key={faq.question} className="pt-6">
@@ -21,7 +24,7 @@ export default function Faq() {
                 <>
                   <dt className="text-lg">
                     <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                      <span className="font-medium text-[#ffffff]">
+                      <span className="font-medium text-[16px] text-[#ffffff]">
                         {faq.question}
                       </span>
                       <span className="ml-6 h-7 flex items-center">

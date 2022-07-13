@@ -6,7 +6,9 @@ import { fadeIn, staggerContainer } from './motionVariants';
 const About = () => {
   return (
     <>
-      <section class="text-white px-4 lg:px-0">
+      <div class="text-white px-4 lg:px-0 flex flex-row">
+        <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%] "></div>
+
         <motion.div
           variants={staggerContainer}
           animate="animate"
@@ -53,7 +55,7 @@ const About = () => {
             </div>
           </div>
         </motion.div>
-      </section>
+      </div>
     </>
   );
 };

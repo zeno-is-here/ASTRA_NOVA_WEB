@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 const Hero = () => {
   return (
@@ -8,7 +7,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        className="absolute z-10 w-auto min-w-full min-h-full max-w-none "
       >
         <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

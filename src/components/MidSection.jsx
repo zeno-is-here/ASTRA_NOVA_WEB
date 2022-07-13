@@ -5,7 +5,7 @@ import { fadeIn, staggerContainer } from './motionVariants';
 
 const MidSection = () => {
   return (
-    <div className="w-full py-8 px-4">
+    <div className="w-full py-8 px-4 flex flex-row">
       <div className="max-w-[1240px] mx-auto text-center flex flex-col">
         <h1 class=" sm:text-[34px] text-2xl mt-8 font-extrabold leading-5 text-gray-200">
           The End was just the Beginning.
@@ -62,6 +62,7 @@ const MidSection = () => {
           </div>
         </motion.div>
       </div>
+      <div className="w-[3%] h-[500px] blur-[35px] bg-[#c4410d] opacity-[0.35] rounded-[100%] pt-20"></div>
     </div>
   );
 };
