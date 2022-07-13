@@ -1,5 +1,5 @@
 import React from 'react';
-import first from '../assets/secondsectionimg.jpg';
+import first from '../assets/girl.png';
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer } from './motionVariants';
 
@@ -24,12 +24,12 @@ const MidSection = () => {
         </div>
         <div className="flex justify-center gap-6 items-center flex-col sm:flex-col md:flex-row md:gap-5 lg:flex-row lg:justfy-center lg:gap-5 my-8 mx-6">
           <img
-            class="object-cover object-center rounded"
+            class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
             alt="hero"
             src={first}
           />
           <img
-            class="object-cover object-center rounded"
+            class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
             alt="hero"
             src={first}
           />

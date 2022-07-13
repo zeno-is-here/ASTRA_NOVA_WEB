@@ -26,7 +26,7 @@ export default function Team() {
           <Tabs setVal={setRoleFunc} />
           <ul
             role="list"
-            className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
+            className="space-y-12 sm:grid sm:grid-cols-3 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-5 lg:gap-x-8"
           >
             {team
               .filter((teamP) => teamP.team === role)
@@ -41,7 +41,7 @@ export default function Team() {
                     {/* <div className="aspect-w-3 aspect-h-2"> */}
                     <motion.span variants={fadeIn()}>
                       <img
-                        className="object-cover shadow-lg rounded-lg"
+                        className="object-cover shadow-lg rounded-lg sm:w-[200px] sm:h-[200px] w-[250px] h-[250px] mx-auto"
                         src={person.imageUrl}
                         alt={person.imageUrl}
                       />
