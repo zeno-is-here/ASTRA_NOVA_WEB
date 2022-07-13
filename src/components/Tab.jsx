@@ -48,7 +48,7 @@ export default function Tabs({ setVal }) {
               className={classNames(
                 current === tab.name
                   ? 'bg-teal-500 text-gray-200'
-                  : 'text-white hover:text-gray-400 hover:cursor-pointer',
+                  : 'text-white hover:text-gray-400 hover:cursor-pointer hover:ease-in-out duration-500',
                 'px-3 py-2 font-normal text-base rounded-md'
               )}
               aria-current={tab.current ? 'page' : undefined}
