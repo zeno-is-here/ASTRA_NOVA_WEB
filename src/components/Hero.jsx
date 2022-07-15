@@ -2,12 +2,12 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative flex items-center justify-center h-screen mb-12 overflow-hidden -mt-20 -z-10">
+    <div className="relative flex items-center justify-center h-[80vh] w-[80vw] mx-auto overflow-hidden -z-10">
       <video
         autoPlay
         loop
         muted
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none "
+        className="absolute z-10 w-auto md:min-w-full md:min-h-full md:max-w-none "
       >
         <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.

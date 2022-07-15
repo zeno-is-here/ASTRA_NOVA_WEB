@@ -1,5 +1,6 @@
 import { Disclosure, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import logo from '../assets/logo.png';
 
 const navigation = [
   { name: 'Astra Nova', href: '#' },
@@ -16,7 +17,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-black">
+    <Disclosure as="nav" className="transparent">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,16 +35,11 @@ export default function Example() {
                   </Disclosure.Button>
                 </div>
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  {/* <img
                     className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    src={logo}
                     alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
-                  />
+                  /> */}
                 </div>
                 <div className="hidden bg-transparent md:ml-6 md:flex md:items-center md:space-x-4">
                   {navigation.map((item) => (
