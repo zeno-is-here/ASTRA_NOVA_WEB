@@ -32,3 +32,81 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: hsl(174, 85%, 42%, 70%);
 }
+
+.background-pattern {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    right: auto;
+    bottom: -100px;
+    z-index: 100;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: #b87d58;
+    opacity: 0.5;
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.background-pattern0 {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    right: auto;
+    bottom: -100px;
+    z-index: 100;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #15b9a6;
+    opacity: 0.4;
+    -webkit-filter: blur(210px);
+    filter: blur(210px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.background-pattern1 {
+    position: absolute;
+    right: -100px;
+    top: 830px;
+    left: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #15b9a6;
+    opacity: 0.5;
+    -webkit-filter: blur(140px);
+    filter: blur(140px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.background-pattern2 {
+    position: absolute;
+    right: -100px;
+    top: 830px;
+    left: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #b87d58;
+    opacity: 0.6;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}

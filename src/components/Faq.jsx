@@ -9,7 +9,7 @@ function classNames(...classes) {
 
 export default function Faq() {
     return (
-        <div className="text-white flex flex-row">
+        <div className="text-white flex flex-row" data-scroll-section>
             <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%]"></div>
 
             <div className="w-[80%] mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">

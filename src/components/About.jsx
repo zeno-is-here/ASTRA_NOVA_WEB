@@ -6,7 +6,10 @@ import { fadeIn, staggerContainer } from "./motionVariants";
 const About = () => {
     return (
         <>
-            <div class="text-white px-4 lg:px-0 flex flex-row">
+            <div
+                class="text-white px-4 lg:px-0 flex flex-row mt-40"
+                data-scroll-section
+            >
                 <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%] "></div>
 
                 <motion.div

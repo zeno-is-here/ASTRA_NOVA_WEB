@@ -11,9 +11,10 @@ import "./styles.css";
 import LoadingOverlay from "./components/LoadingOverlay";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import useLocoScroll from "./utils/locoScroll";
 
 function App() {
-    const [preLoader, setPreLoader] = useState(true);
+    const [preLoader, setPreLoader] = useState(false);
 
     const title = useRef(null);
     const logo = useRef(null);
@@ -79,13 +80,15 @@ function App() {
         }
     }, [preLoader === false]);
 
+    useLocoScroll(!preLoader);
+
     return (
         <>
             <CustomCursor />
             {preLoader ? (
                 <LoadingOverlay title={title} logo={logo} />
             ) : (
-                <div className="main-container ">
+                <div className="main-container" data-scroll-container>
                     <CustomCursor />
                     <Navbar />
                     <Hero />
