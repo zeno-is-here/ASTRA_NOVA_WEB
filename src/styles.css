@@ -11,6 +11,7 @@
 body {
     background-color: #07070e !important;
     visibility: hidden;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -45,8 +46,8 @@ body {
     border-radius: 100%;
     background-color: #b87d58;
     opacity: 0.5;
-    -webkit-filter: blur(100px);
-    filter: blur(100px);
+    -webkit-filter: blur(130px);
+    filter: blur(130px);
     opacity: 1;
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
         rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
@@ -59,8 +60,8 @@ body {
     right: auto;
     bottom: -100px;
     z-index: 100;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 100%;
     background-color: #15b9a6;
     opacity: 0.4;
@@ -102,6 +103,85 @@ body {
     height: 400px;
     border-radius: 100%;
     background-color: #b87d58;
+    opacity: 0.6;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.background-pattern3 {
+    position: absolute;
+    left: -100px;
+    top: -150px;
+    right: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #15b9a6;
+    opacity: 0.5;
+    -webkit-filter: blur(140px);
+    filter: blur(140px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.background-pattern4 {
+    position: absolute;
+    left: -100px;
+    top: -150px;
+    right: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #0370c3;
+    opacity: 0.6;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.background-pattern5 {
+    position: absolute;
+    right: -100px;
+    top: -150px;
+    left: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: #c4410d;
+    opacity: 0.5;
+    -webkit-filter: blur(140px);
+    filter: blur(140px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.background-pattern6 {
+    position: absolute;
+    right: -100px;
+    top: -150px;
+    left: auto;
+    bottom: -100px;
+    z-index: 30;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #15b9a6;
     opacity: 0.6;
     -webkit-filter: blur(200px);
     filter: blur(200px);

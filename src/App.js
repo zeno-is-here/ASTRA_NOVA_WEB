@@ -78,6 +78,7 @@ function App() {
                 }
             );
         }
+        // document.body.style.overflow = "hidden";
     }, [preLoader === false]);
 
     useLocoScroll(!preLoader);
