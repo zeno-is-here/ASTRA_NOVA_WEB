@@ -16,7 +16,10 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
     ];
 
     return (
-        <header className="w-full h-[10%] top-0 left-0 p-10 flex z-20">
+        <header
+            className="w-full h-[10%] top-0 left-0 p-10 flex z-20"
+            data-scroll-section
+        >
             {/* Logo */}
             <>
                 <div className="hidden bg-transparent md:ml-[10%] md:flex md:items-center md:space-x-4">
@@ -42,7 +45,6 @@ const Header = ({ navbarOpen, setNavbarOpen }) => {
                 className="md:hidden flex top-0 right-0 z-20 relative w-10 h-10 text-white focus:outline-none"
                 onClick={() => {
                     setNavbarOpen(!navbarOpen);
-                    document.body.style.overflow = "hidden";
                 }}
             >
                 <div className="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
