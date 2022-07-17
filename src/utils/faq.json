@@ -1,58 +1,35 @@
 [
-  {
-    "question": "What is Astra Nova?",
-    "answer": "Astra Nova is a new global Web3 Gaming company focused on creating lasting community value for avid gamers and NFT enthusiasts. Our core products to achieve this mission: Deviants NFT Collection & Astra Nova MetaRPG."
-  },
-  {
-    "question": "What does Astra Nova mean? ",
-    "answer": "Astra Nova represents a ‘New Beginning’. The word “Astra” means Star in Latin. “Nova” means Newly visible Star, signifying the rebirth of users when they enter our metaverse"
-  },
-  {
-    "question": "Is Astra Nova a multi chain metaverse?",
-    "answer": "At the moment no, But we do intend to make Astra Nova a multi-chain metaverse in the future."
-  },
-  {
-    "question": "What are the features of Astra Nova Metaverse? ",
-    "answer": "<p> - Free to play <br /> <br /> - AAA quality graphics and gameplay <br /> <br /> - Built on Unreal Engine for maximum stability <br /> <br /> - Ever-evolving immersive storyline <br /> <br /> - NFT Staking Pools for in-game upgrades <br /> <br /> - Multi-chain compatibility <br /><br /> - Governance Council </p>"
-  },
-  {
-    "question": "What are the tokens on Astra Nova?",
-    "answer": "<p> - Revive ( $RVV ) <br /> <br /> - G-token ( $GTKN ) <br /> <br /> Revive Token is the main in-game multi-utility token <br />G-Token is a dedicated governance token containing uses such as voting on governance issues, rewards, tipping features and participating in lotteries. All these features pave the way for a future DAO. </p>"
-  },
-  {
-    "question": "What are the use-cases for 2 tokens?",
-    "answer": "<b>REVIVE($RVV)</b><br /> <br /> ● All transactions in the Metaverse requires $RVV <br /> <br /> ● Trade your NFTs <br /> <br /> ● Purchase several character upgrade <br /> <br /> ● Participate in events and tournaments <br /> <br /> ● Purchase/Lease or trade in land <br /> <br /> ●   Pay all council fees like advertisement and gaming licences <br /> <br />●   To play third-party developed games and complete specific missions"
-  },
-  {
-    "question": "What are the various NFTs of Astra Nova?",
-    "answer": "<p> A. <b>Deviants</b> : There will be 10,000 characters which will be minted as NFT’s with certain perks and powers. They act as the key to the Astra Nova ecosystem. <br /> <br /> B. <b>Orion’s Realm</b>: Virtual Land NFTs, divided into 5,500 virtual land NFTs consisting of cities, forests, farmlands etc. which can be minted. These NFTs will be assigned in a randomised manner to all the NFT title-deed holders.<br /> <br />C. <b>Sentinels</b>: Limited edition of 140 Smart NFTs with AI Capabilities, will be released on the platform. Possessing these Sentinels grants the possessor extraordinary privileges, thus transforming him or her into the 'Councillor' of particular areas of the virtual territory in the game. "
-  },
-  {
-    "question": "What can I stake?",
-    "answer": "$RVV token and NFTs can be staked."
-  },
-  {
-    "question": "When is the Deviants NFT mint? What is the minting price?",
-    "answer": "The exact date of our mint and mint price would be announced shortly."
-  },
-  {
-    "question": "How do I get Whitelisted (WL) for NFTs and upcoming events?",
-    "answer": "We will be conducting raffles, air drops, social engagement activities (Top rankers will be chosen), competition, giveaway and events which will be announced soon."
-  },
-  {
-    "question": "Where can I purchase $RVV token?",
-    "answer": "We have plans to list on several major exchanges and DEXs. The exact dates listing dates would be announced on our social media channels, Stay Tuned!"
-  },
-  {
-    "question": "When will the game be released?",
-    "answer": "Our engineers are working rapidly to build the game, and the anticipated release date for the Open Beta is scheduled for Q2 2023."
-  },
-  {
-    "question": "Where can I learn more about the game?",
-    "answer": "Read our Whitepaper to get a broad overview of what we are building, and why. For further information follow our posts on Medium, Twitter and simply stay connected to our Discord server."
-  },
-  {
-    "question": "I'm an influencer/content creator/partner - Who should I contact?",
-    "answer": "Shoot an email to contact@astranova.world with a link to the platform(s) you operate on!"
-  }
+    {
+        "question": "What is Astra Nova?",
+        "answer": "Astra Nova is a new global Web3 Gaming company focused on creating lasting community value for avid gamers & NFT enthusiasts (two groups who get along famously 😉). \n\n We’re setting out to achieve this with our free-to-play Astra Nova MetaRPG game experience & introductory Deviants NFT Collection."
+    },
+    {
+        "question": "What does Astra Nova mean? ",
+        "answer": "Astra Nova represents a ‘New Beginning’ translating to “newly visible star” in Latin. We founded our company on the symbol of rebirth to deliver on the promise of Web3 x Gaming."
+    },
+    {
+        "question": "What is a MetaRPG?",
+        "answer": "A MetaRPG combines the adventurous, collaborative gameplay of MMORPGs with the benefits of Web3 transparency & ownership."
+    },
+    {
+        "question": "Why does the world need a new MetaRPG?",
+        "answer": "<p> We're serious gamers at Astra Nova with a deep love of gaming. Right now, metaverse experiences are big empty playgrounds. <br /> We're inspired by the online worlds & gameplay of Fortnite, FFIVX, Destiny & more. But behind the scenes, these companies are beholden to shareholders and corporate interests. <br /> We're excited at the potential for Web3 to shift the balance of power away from traditional gaming studios into the hands of gamers themselves. </p>"
+    },
+
+    {
+        "question": "Is this just another play-to-earn thing?",
+        "answer": "Absolutely not. We will never be play-to-earn or play-to-win. We’re tired of scammy/grindy P2E games robbing gamers of their most valuable resource: time. <br /> Playing games should be fun and fulfilling. Earning is but one of many features enhancing our game experience. Our MetaRPG gives gamers an imaginative new world where they can explore, discover & (only if they want to) earn. "
+    },
+    {
+        "question": "What makes you qualified to build this MetaRPG game?",
+        "answer": "Bringing this to life is a team of industry veterans in game development, award-winning creatives & leaders in brand marketing. And we’re all avid gamers. "
+    },
+    {
+        "question": "What are the features of the upcoming Astra Nova MetaRPG",
+        "answer": "- Free to play <br/> - Dynamic storylines, heroic characters & immersive world lore <br /> - AAA quality graphics and gameplay <br /> - Built on Unreal Engine for maximum stability <br /> - Ever-evolving immersive storyline </ br> - 2-tier token economy providing the option to play-and-earn <br /> - NFT Staking Pools for in-game upgrades <br /> - Multi-chain compatibility <br /> - Governance Council <br />"
+    },
+    {
+        "question": "I'm an influencer/content creator/partner - Who should I contact?",
+        "answer": "Shoot an email to contact@astranova.world with a link to the platform(s) you operate on!"
+    }
 ]

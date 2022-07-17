@@ -1,5 +1,6 @@
 import React from "react";
 import first from "../assets/girl.png";
+import portal from "../utils/portal.jpg";
 import devi1 from "../utils/devi1.jpg";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
@@ -15,31 +16,22 @@ const MidSection = () => {
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
                 className="background-pattern"
             ></div>
+
             <div className="max-w-[1340px] mx-auto text-center flex flex-col">
-                <h1 class=" sm:text-[34px] lg:text-8xl mt-8 font-normal leading-10 text-gray-300  pl-80 pr-40 ">
+                <h1 class=" sm:text-[34px] lg:text-8xl mt-8 font-normal leading-10 text-gray-300  pl-80 pr-40 text-right">
                     The End was just the Beginning.
                 </h1>
 
-                <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[220px] my-8 flex flex-row">
-                    <div className="first w-1/3">
-                        <p className=" text-gray-300 text-sm font-normal leading-6 text-left p-6">
-                            The Five Worlds lie in ruin, casualties of a
-                            celestial warbetween order and chaos. The Day of
-                            Destruction claimed many lives-but there were some
-                            who survived. Those brave enough to enter the
-                            ancient gateways were transported to the last
-                            bastion of hope in the universe: Astra Nova.
-                        </p>
-                    </div>
-                    <div className="mid w-1/3 px-4">
+                <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[220px] my-8 flex flex-row mt-20">
+                    <div className="mid w-2/3 px-4">
                         <img
-                            class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[350px] lg:h-[350px]"
+                            class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[450px] lg:h-[550px]"
                             alt="hero"
-                            src={first}
+                            src={portal}
                         />
                     </div>
-                    <div className="last w-1/3">
-                        <p className=" text-gray-300 text-sm font-normal leading-6 text-right p-6 mt-40">
+                    <div className="last w-1/2">
+                        <p className=" text-gray-300 text-base font-normal leading-6 text-right ">
                             The Five Worlds lie in ruin, casualties of a
                             celestial warbetween order and chaos. The Day of
                             Destruction claimed many lives-but there were some
@@ -84,7 +76,7 @@ const MidSection = () => {
                         <div className="first w-1/2 flex flex-col">
                             <div className="w-4/5 text-left  my-8">
                                 <motion.span variants={fadeIn()}>
-                                    <p className="text-sm text-gray-300 font-normal leading-6 my-4 ">
+                                    <p className="text-base text-gray-300 font-normal leading-6 my-4 ">
                                         <span className="text-lg italic font-light">
                                             Even on Astra Nova, survival is no
                                             guarantee.
@@ -101,17 +93,17 @@ const MidSection = () => {
                                     </p>
                                 </motion.span>
                             </div>
-                            <div className="bottomImage">
+                            {/* <div className="bottomImage">
                                 <img
                                     class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[700px]"
                                     alt="hero"
                                     src={devi1}
                                 />
-                            </div>
+                            </div> */}
                         </div>
-                        <div className="second w-1/2 mt-10 p-4">
+                        <div className="second w-1/2  p-4">
                             <img
-                                class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[700px]"
+                                class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[450px] lg:h-[550px]"
                                 alt="hero"
                                 src={devi1}
                             />
@@ -119,6 +111,7 @@ const MidSection = () => {
                     </motion.div>
                 </div>
             </div>
+
             <div className="w-[3%] h-[500px] blur-[35px] bg-[#c4410d] opacity-[0.35] rounded-[100%] pt-20 z-50"></div>
         </div>
     );
