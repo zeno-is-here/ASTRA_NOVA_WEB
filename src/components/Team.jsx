@@ -13,14 +13,6 @@ export default function Team() {
 
     return (
         <div className="text-white flex flex-row w-full" data-scroll-section>
-            <div
-                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern5"
-            ></div>
-            <div
-                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern6"
-            ></div>
             <div className="mx-auto py-16  px-12 lg:px-8 w-full">
                 <div className="space-y-12">
                     <div className="space-y-5 text-center sm:space-y-4">
@@ -45,12 +37,12 @@ export default function Team() {
                                         variants={staggerContainer}
                                         animate="animate"
                                         initial="initial"
-                                        className="space-y-4"
+                                        className="space-y-2"
                                     >
                                         {/* <div className="aspect-w-3 aspect-h-2"> */}
                                         <motion.span variants={fadeIn()}>
                                             <img
-                                                className="object-cover shadow-lg rounded-lg sm:w-[150px] sm:h-[150px] lg:w-[200px] lg:h-[200px] mx-auto"
+                                                className="object-cover shadow-lg rounded-lg w-[220px] h-[220px] md:w-[200px] md:h-[200px] mx-auto"
                                                 src={person.imageUrl}
                                                 alt={person.imageUrl}
                                             />
