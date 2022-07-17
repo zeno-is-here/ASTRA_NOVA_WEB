@@ -42,7 +42,7 @@ export default function Team() {
                     {/* <div className="aspect-w-3 aspect-h-2"> */}
                     <motion.span variants={fadeIn()}>
                       <img
-                        className="object-cover shadow-lg rounded-lg w-[150px] h-[150px] md:w-[200px] md:h-[200px] mx-auto"
+                        className="object-cover shadow-lg rounded-lg w-[220px] h-[220px] md:w-[200px] md:h-[200px] mx-auto"
                         src={person.imageUrl}
                         alt={person.imageUrl}
                       />
