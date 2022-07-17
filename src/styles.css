@@ -6,13 +6,13 @@
 
 * {
     font-family: "Inter", sans-serif;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 body {
     background-color: #07070e !important;
     visibility: hidden;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 ::-webkit-scrollbar {
@@ -205,9 +205,11 @@ body {
 
     .background-pattern1 {
         top: 200vh;
+        right: 0px;
     }
     .background-pattern2 {
         top: 200vh;
+        right: 0px;
     }
     .background-pattern3 {
         top: 350vh;
@@ -216,13 +218,15 @@ body {
         top: 350vh;
     }
     .background-pattern5 {
-        top: 470vh;
+        top: 580vh;
         width: 300px;
         height: 300px;
+        right: 0px;
     }
     .background-pattern6 {
-        top: 470vh;
+        top: 580vh;
         width: 300px;
         height: 300px;
+        right: 0px;
     }
 }
