@@ -6,12 +6,13 @@
 
 * {
     font-family: "Inter", sans-serif;
+    overflow-x: hidden !important;
 }
 
 body {
     background-color: #07070e !important;
     visibility: hidden;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar {
@@ -53,6 +54,7 @@ body {
         rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
 }
+
 .background-pattern0 {
     position: absolute;
     left: -100px;
@@ -90,6 +92,8 @@ body {
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
         rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
+    @media (max-width: 768px) {
+    }
 }
 
 .background-pattern2 {
@@ -189,4 +193,36 @@ body {
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
         rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
+}
+
+@media only screen and (max-width: 600px) {
+    .background-pattern {
+        top: 90vh;
+    }
+    .background-pattern0 {
+        top: 90vh;
+    }
+
+    .background-pattern1 {
+        top: 200vh;
+    }
+    .background-pattern2 {
+        top: 200vh;
+    }
+    .background-pattern3 {
+        top: 350vh;
+    }
+    .background-pattern4 {
+        top: 350vh;
+    }
+    .background-pattern5 {
+        top: 470vh;
+        width: 300px;
+        height: 300px;
+    }
+    .background-pattern6 {
+        top: 470vh;
+        width: 300px;
+        height: 300px;
+    }
 }
