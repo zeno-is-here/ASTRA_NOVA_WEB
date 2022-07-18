@@ -83,10 +83,10 @@ const About = () => {
                                         Follow the Deviant Trials on our
                                         Discord, or mint your own Deviant below.
                                     </p>
-                                    <div class="flex justify-left items-left w-full">
+                                    <div class="flex xs:justify-center xs:items-center sm:items-center sm:justify-center md:items-left md:justify-left lg:items-left lg:justify-left xl:items-left xl:justify-left justify-center items-center w-full">
                                         <button
                                             type="button"
-                                            className=" w-1/3 inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto mr-4 "
+                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto mr-4 "
                                         >
                                             Deviate Now
                                         </button>
