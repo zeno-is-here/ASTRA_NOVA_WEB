@@ -19,7 +19,7 @@ export default function Tabs({ setVal }) {
 
     return (
         <div>
-            <div className="sm:hidden flex justify-center">
+            <div className="sm:hidden flex justify-center z-50">
                 <select
                     id="tabs"
                     name="tabs"
