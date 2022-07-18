@@ -95,7 +95,10 @@ const MidSection = () => {
                         className="background-pattern2"
                     ></div>
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
-                        <h1 class="leading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left">
+                        <h1
+                            data-scroll
+                            class="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left"
+                        >
                             The Fate of the Universe is in your Hands.
                         </h1>
                     </motion.span>
@@ -108,7 +111,10 @@ const MidSection = () => {
                         <div className="first flex flex-col xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-8 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 pl-8">
                             <div className="w-4/5 text-left  my-8 ">
                                 <motion.span variants={fadeIn()}>
-                                    <p className="text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-16 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 pr-16 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm">
+                                    <p
+                                        data-scroll
+                                        className="mid-text2 text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-16 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 pr-16 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm"
+                                    >
                                         <span className="text-lg italic font-light">
                                             Even on Astra Nova, survival is no
                                             guarantee.
@@ -135,7 +141,7 @@ const MidSection = () => {
                         </div>
                         <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-0 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 pl-0">
                             <img
-                                class="object-cover object-center rounded  sm:w-[350px]  sm:mr-auto sm:h-[450px] lg:w-[450px] lg:h-[550px]"
+                                class="mid-img2 object-cover object-center rounded  sm:w-[350px]  sm:mr-auto sm:h-[450px] lg:w-[450px] lg:h-[550px]"
                                 alt="hero"
                                 src={devi1}
                                 data-scroll
