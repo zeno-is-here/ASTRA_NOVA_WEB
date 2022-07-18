@@ -195,6 +195,35 @@ body {
     transform-style: preserve-3d;
 }
 
+.mid-img1 {
+    clip-path: inset(100% 0% 0% 0%);
+    animation-delay: 1ms;
+    transition: clip-path 1.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+    &.is-reveal {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.mid-text1 {
+    clip-path: inset(100% 0% 0% 0%);
+    animation-delay: 2ms;
+    transition: clip-path 1.5s cubic-bezier(0.99, 0.9, 0.05, 1);
+
+    &.is-reveal {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.mid-head1 {
+    clip-path: inset(100% 0% 0% 0%);
+    transition: clip-path 1.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+    &.is-reveal {
+        clip-path: inset(0% 0% -9% 0%);
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .background-pattern {
         top: 90vh;

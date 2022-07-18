@@ -1,11 +1,36 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import first from "../assets/girl.png";
 import portal from "../utils/portal.jpg";
 import devi1 from "../utils/devi1.jpg";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const MidSection = () => {
+    // const tl = gsap.timeline();
+    // const mid_text_1_ref = useRef(null);
+    // useEffect(() => {
+    //     const el = mid_text_1_ref.current;
+
+    //     tl.fromTo(
+    //         el,
+    //         { opacity: 0, y: 70, delay: 1, ease: "power3.easeOut" },
+    //         {
+    //             opacity: 1,
+    //             y: 0,
+    //             duration: 2,
+    //             scrollTrigger: {
+    //                 trigger: el,
+    //             },
+    //             stagger: {
+    //                 amount: 0.5,
+    //             },
+    //         }
+    //     );
+    // }, []);
+
     return (
         <div className="w-full py-8 flex flex-row mt-40" data-scroll-section>
             <div
@@ -18,19 +43,26 @@ const MidSection = () => {
             ></div>
 
             <div className="max-w-[1340px] mx-auto text-center flex flex-col ">
-                <h1 class=" xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right">
+                <h1
+                    class="mid-head1 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-loose text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right"
+                    data-scroll
+                >
                     The End was just the Beginning.
                 </h1>
 
                 <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[170px] my-8 flex mt-20 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
                     <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4">
                         <img
-                            class="object-cover object-center rounded  sm:w-[350px] sm:float-right sm:ml-auto  sm:h-[400px] lg:w-[450px] lg:h-[550px]"
+                            class="mid-img1 object-cover object-center rounded  sm:w-[350px] sm:float-right sm:ml-auto  sm:h-[400px] lg:w-[450px] lg:h-[550px]"
                             alt="hero"
                             src={portal}
+                            data-scroll
                         />
                     </div>
-                    <div className="last xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10">
+                    <div
+                        className="mid-text1 last xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10"
+                        data-scroll
+                    >
                         <p className=" text-gray-300  font-normal leading-6 text-right xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-0 lg:pl-0 xl:pl-0 pl-16 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm ">
                             The Five Worlds lie in ruin, casualties of a
                             celestial warbetween order and chaos. The Day of
@@ -106,6 +138,7 @@ const MidSection = () => {
                                 class="object-cover object-center rounded  sm:w-[350px]  sm:mr-auto sm:h-[450px] lg:w-[450px] lg:h-[550px]"
                                 alt="hero"
                                 src={devi1}
+                                data-scroll
                             />
                         </div>
                     </motion.div>

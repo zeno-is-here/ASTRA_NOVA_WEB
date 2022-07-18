@@ -7,7 +7,7 @@ import MidSection from "./components/MidSection";
 import Navbar from "./components/Navbar";
 import Team from "./components/Team";
 import CustomCursor from "./components/CustomCursor";
-import "./styles.css";
+import "./styles.scss";
 import LoadingOverlay from "./components/LoadingOverlay";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
@@ -81,7 +81,7 @@ function App() {
         // document.body.style.overflow = "hidden";
     }, [preLoader === false]);
 
-    // useLocoScroll(!preLoader);
+    useLocoScroll(!preLoader);
 
     return (
         <>
