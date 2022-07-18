@@ -5,10 +5,13 @@ import teallogo from "../utils/teallogo.gif";
 const LoadingOverlay = ({ logo }) => {
     return (
         <>
-            <div className="loading-overlay cursor-none">
+            <div className="loading-overlay cursor-none overflow-hidden">
                 <div className="loading-top h-screen w-screen bg-red-900 absolute z-1000">
                     <div className="overlay-top h-screen w-screen absolute bg-black flex justify-center items-center flex-col">
-                        <div className="logoDiv h-40 w-40" ref={logo}>
+                        <div
+                            className="logoDiv h-40 w-40 xs:-mt-16 sm:-mt-16 md:mt-0 lg:mt-0 xl:mt-0 -mt-16"
+                            ref={logo}
+                        >
                             <img
                                 src={teallogo}
                                 alt=""
