@@ -14,7 +14,7 @@ import gsap from "gsap";
 import useLocoScroll from "./utils/locoScroll";
 
 function App() {
-    const [preLoader, setPreLoader] = useState(false);
+    const [preLoader, setPreLoader] = useState(true);
 
     const title = useRef(null);
     const logo = useRef(null);
@@ -66,7 +66,7 @@ function App() {
                 ".main-container",
                 {
                     opacity: 0,
-                    duration: 2,
+                    duration: 3,
                     ease: "power4.out",
                     stagger: {
                         amount: 0.5,
@@ -74,7 +74,7 @@ function App() {
                 },
                 {
                     opacity: 1,
-                    duration: 2,
+                    duration: 3,
                 }
             );
         }
