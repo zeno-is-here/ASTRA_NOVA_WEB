@@ -207,8 +207,7 @@ body {
 
 .mid-text1 {
     clip-path: inset(100% 0% 0% 0%);
-    animation-delay: 1ms;
-    transition: clip-path 1.5s cubic-bezier(0.99, 0.9, 0.05, 1);
+    transition: clip-path 1.2s cubic-bezier(0.99, 0.9, 0.05, 1);
 
     &.is-reveal {
         transition-delay: 200ms;
@@ -237,8 +236,7 @@ body {
 
 .mid-text2 {
     clip-path: inset(100% 0% 0% 0%);
-    animation-delay: 1ms;
-    transition: clip-path 1.5s cubic-bezier(0.99, 0.9, 0.05, 1);
+    transition: clip-path 1.2s cubic-bezier(0.99, 0.9, 0.05, 1);
 
     &.is-reveal {
         transition-delay: 200ms;
