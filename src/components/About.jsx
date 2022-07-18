@@ -30,7 +30,7 @@ const About = () => {
                         <motion.span variants={fadeIn()}>
                             <h1
                                 data-scroll
-                                class="mid-head3 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
+                                class="mid-head3 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-0 sm:pr-0 md:pr-20 lg:pr-40 xl:pr-40 pr-0 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
                             >
                                 What are the Deviants?
                             </h1>
@@ -86,7 +86,7 @@ const About = () => {
                                     <div class="flex justify-left items-left w-full">
                                         <button
                                             type="button"
-                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:ml-auto xs:mr-auto mr-auto  sm:ml-auto sm:mr-auto md:ml-auto lg:ml-0 xl:ml-0 ml-auto xs:mr-4 sm:mr-4 md:mr-0 lg:mr-0 xl:mr-0 mr-4 "
+                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:ml-auto xs:mr-auto  sm:ml-auto sm:mr-auto md:ml-auto lg:ml-0 xl:ml-0 ml-auto xs:mr-auto sm:mr-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto mr-4 "
                                         >
                                             Deviate Now
                                         </button>
