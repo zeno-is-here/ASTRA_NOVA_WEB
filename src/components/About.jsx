@@ -79,7 +79,7 @@ const About = () => {
                                     <div class="flex justify-left items-left w-full">
                                         <button
                                             type="button"
-                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:ml-auto sm:ml-auto md:ml-auto lg:ml-0 xl:ml-0 ml-auto"
+                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:ml-auto sm:ml-auto md:ml-auto lg:ml-0 xl:ml-0 ml-auto xs:mr-4 sm:mr-4 md:mr-0 lg:mr-0 xl:mr-0 mr-4 "
                                         >
                                             Deviate Now
                                         </button>
