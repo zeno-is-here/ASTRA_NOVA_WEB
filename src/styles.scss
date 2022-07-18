@@ -211,7 +211,7 @@ body {
     transition: clip-path 1.5s cubic-bezier(0.99, 0.9, 0.05, 1);
 
     &.is-reveal {
-        animation-delay: 1ms;
+        transition-delay: 2s;
         clip-path: inset(0% 0% 0% 0%);
     }
 }
@@ -241,7 +241,7 @@ body {
     transition: clip-path 1.5s cubic-bezier(0.99, 0.9, 0.05, 1);
 
     &.is-reveal {
-        animation-delay: 1ms;
+        transition-delay: 2s;
         clip-path: inset(0% 0% 0% 0%);
     }
 }
