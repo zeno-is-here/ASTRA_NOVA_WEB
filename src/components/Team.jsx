@@ -27,7 +27,7 @@ export default function Team() {
                         <h2 className="sm:text-[34px] text-2xl uppercase title-font font-extrabold ">
                             Meet Our Team
                         </h2>
-                        <p className="text-[#595959] leading-relaxed">
+                        <p className="text-gray-300 leading-relaxed">
                             Created by many. Meet them all.
                         </p>
                     </div>
