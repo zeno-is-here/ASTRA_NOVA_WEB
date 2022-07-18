@@ -46,7 +46,7 @@ const Contact = () => {
                         <div class="flex">
                             <button
                                 type="button"
-                                class=" w-[200px] inline-flex items-center justify-center py-3 mt-8 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-white uppercase"
+                                class=" w-[200px] inline-flex items-center justify-center py-3 mt-8 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-white uppercase m-auto"
                             >
                                 Contact Now
                             </button>
