@@ -9,7 +9,7 @@ const Contact = () => {
     const { text } = useTypewriter({
         words: [" CONTACT US?", " CHAT WITH US?", " TALK TO US?"],
         loop: 0,
-        delaySpeed: 2000,
+        delaySpeed: 1000,
         typeSpeed: 100,
         deleteSpeed: 70,
     });
@@ -46,7 +46,7 @@ const Contact = () => {
                         <div class="flex">
                             <button
                                 type="button"
-                                class=" w-[200px] inline-flex items-center justify-center py-3 mt-8 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-white uppercase m-auto"
+                                class=" w-[200px] inline-flex items-center justify-center py-3 mt-8 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-white uppercase"
                             >
                                 Contact Now
                             </button>
