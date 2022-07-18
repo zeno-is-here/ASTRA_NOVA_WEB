@@ -27,7 +27,7 @@ export default function Tabs({ setVal }) {
                         setVal(e.target.value);
                         setCurrent(e.target.value);
                     }}
-                    className="block w-[150px] h-[50px] rounded-md text-white bg-teal-500 px-4"
+                    className="block w-[150px] h-[50px] rounded-md text-white bg-teal-500 px-4 z-50"
                     defaultValue={current}
                 >
                     {tabs.map((tab) => (
