@@ -97,7 +97,7 @@ export default function Example() {
                     : 'opacity-0 transition-all ease-in delay-300'
                 }`}
               >
-                <ul className="w-full flex flex-col items-center justify-center mb-[20%] gap-y-7">
+                <ul className="w-full flex flex-col items-center justify-center mb-[30%] gap-y-7">
                   {navigation.map((nav) => (
                     <li className="nav-li">
                       <a
