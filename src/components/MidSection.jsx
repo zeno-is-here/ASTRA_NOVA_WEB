@@ -153,7 +153,7 @@ const MidSection = () => {
                 </div>
             </div>
 
-            <div className="w-[3%] h-[500px] blur-[35px] bg-[#c4410d] opacity-[0.35] rounded-[100%] pt-20 z-50"></div>
+            {/* <div className="w-[3%] h-[500px] blur-[35px] bg-[#c4410d] opacity-[0.35] rounded-[100%] pt-20 z-50"></div> */}
         </div>
     );
 };

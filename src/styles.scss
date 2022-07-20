@@ -197,6 +197,46 @@ body {
     transform-style: preserve-3d;
     z-index: 12;
 }
+.background-pattern7 {
+    position: absolute;
+    right: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #15b9a6;
+    opacity: 0.6;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    z-index: 12;
+}
+.background-pattern8 {
+    position: absolute;
+    right: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #15b9a6;
+    opacity: 0.6;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+        rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    z-index: 12;
+}
 
 .mid-img1 {
     clip-path: inset(100% 0% 0% 0%);
@@ -296,38 +336,76 @@ body {
 
 @media only screen and (max-width: 600px) {
     .background-pattern0 {
-        top: 90vh;
+        top: 100vh;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.9;
     }
     .background-pattern {
-        top: 90vh;
+        top: 100vh;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
     .background-pattern1 {
         top: 190vh;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
     .background-pattern2 {
         top: 190vh;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.6;
     }
     .background-pattern3 {
         top: 310vh;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
     .background-pattern4 {
         top: 310vh;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
     .background-pattern5 {
         top: 450vh;
         width: 300px;
         height: 300px;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
     .background-pattern6 {
         top: 450vh;
         width: 300px;
         height: 300px;
         right: 0px;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
+    }
+    .background-pattern7 {
+        top: auto;
+        bottom: 0;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
+    }
+    .background-pattern8 {
+        top: auto;
+        bottom: 0;
+        height: 250px;
+        width: 300px;
+        opacity: 0.5;
     }
 }
 
@@ -438,34 +516,34 @@ body {
 }
 @media only screen and (min-width: 1200px) {
     .background-pattern {
-        top: 100vh;
+        top: 0;
     }
     .background-pattern0 {
-        top: 100vh;
+        top: 0;
     }
 
     .background-pattern1 {
-        top: 210vh;
+        top: 100vh;
         right: 0px;
     }
     .background-pattern2 {
-        top: 210vh;
+        top: 100vh;
         right: 0px;
     }
     .background-pattern3 {
-        top: 360vh;
+        top: 10vh;
     }
     .background-pattern4 {
-        top: 360vh;
+        top: 10vh;
     }
     .background-pattern5 {
-        top: 520vh;
+        top: 0;
         width: 300px;
         height: 300px;
         right: 0px;
     }
     .background-pattern6 {
-        top: 520vh;
+        top: 0;
         width: 300px;
         height: 300px;
         right: 0px;
