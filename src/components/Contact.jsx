@@ -3,11 +3,23 @@ import captain from "../assets/captain.png";
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 
 const Contact = () => {
-    const handleDone = () => {
-        console.log(`Done after 5 loops!`);
-    };
     const { text } = useTypewriter({
-        words: [" CONTACT US?", " CHAT WITH US?", " TALK TO US?"],
+        words: [
+            "If you would like to join us, drop us a mail!",
+            "If you would like to partner, drop us a mail!",
+            "If you would like to talk about investments, drop us a mail!",
+            "If you are a hardcore gamer, follow us!",
+            "If you just feel like we're dope, follow us!",
+            "If you think web3 and NFTs are your thing, follow us!",
+            "If you love the Deviants, follow us!",
+            "If you like P2E games, follow us!",
+            "If you like making money, follow us!",
+            "If you're curious, follow us!",
+            "If you're a crypto maniac, follow us!",
+            "If you think you're smart, follow us!",
+            "If you're waiting for this to end, follow us!",
+            "If you read most of these messages, follow us!",
+        ],
         loop: 0,
         delaySpeed: 1000,
         typeSpeed: 100,
@@ -26,7 +38,6 @@ const Contact = () => {
                 <div className="max-w-[1240px] mx-auto text-gray-500 pt-12 pb-12 pl-8 xl:pl-0 lg:mt-40">
                     <div className="left">
                         <h2 class=" text-2xl font-extrabold text-white">
-                            WANT TO
                             {text}
                             {/* <Typewriter
                                 loop={5}
@@ -52,13 +63,13 @@ const Contact = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="right relative">
+                    {/* <div className="right relative">
                         <img
                             src={captain}
                             alt=""
                             className="absolute -bottom-12 right-0 opacity-0 lg:opacity-100 xl:"
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

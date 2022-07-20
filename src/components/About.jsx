@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about.jpg";
+import about from "../assets/about.png";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
 
@@ -30,17 +30,24 @@ const About = () => {
                         <motion.span variants={fadeIn()}>
                             <h1
                                 data-scroll
-                                class="mid-head3 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-0 sm:pr-0 md:pr-20 lg:pr-40 xl:pr-40 pr-0 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
+                                class="mid-head3 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-0 sm:pr-0 md:pr-20 lg:pr-40 xl:pr-40 pr-0 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
                             >
                                 What are the Deviants?
                             </h1>
                         </motion.span>
                     </div>
-                    <div className="flex flex-col xs:mt-12 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-20 mt-12 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full items-righttext-right ml-auto mr-28">
+                    <div className="flex flex-col xs:mt-12 sm:mt-12 md:mt-12 lg:mt-10 xl:mt-10 mt-12 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full items-righttext-right ml-auto mr-28">
                         <div class="lg:flex-grow w-full  flex flex-col lg:items-start md:text-left items-center text-right">
                             <div className="flex xs:flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row flex-col w-full">
                                 <div class="flex flex-start place-items-start mb-10 lg:mb-0 xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:pr-0 sm:pr-5 md:pr-12 lg:pr-0 xl:pr-0 pr-0 ">
-                                    <video
+                                    {/* Looping video goes here */}
+                                    <img
+                                        data-scroll
+                                        class="rounded-xl object-cover object-center mid-img3 z-10 xs:w-full sm:w-4/5 md:w-4/5 lg:w-4/5 xl:w-4/5 w-full xs:p-0 sm:p-0 md:p-6 lg:p-6 xl:p-6 p-0 ml-auto -mt-2"
+                                        alt="hero"
+                                        src={about}
+                                    />
+                                    {/* <video
                                         autoPlay
                                         loop
                                         muted
@@ -53,7 +60,8 @@ const About = () => {
                                         />
                                         Your browser does not support the video
                                         tag.
-                                    </video>
+                                    </video> */}
+                                    {/* Looping video ends here */}
                                 </div>
                                 <motion.span
                                     variants={fadeIn()}
@@ -61,7 +69,7 @@ const About = () => {
                                 >
                                     <p
                                         data-scroll
-                                        className="mid-text3 mb-8 text-gray-300 text-base ml-auto xs:w-full sm:w-full md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-4 xl:p-4 p-4 xs:pl-4 sm:pl-4 md:pl-16 lg:pl-0 xl:pl-0 pl-4 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm xs:text-right sm:text-right md:text-right lg:text-left xl:text-left xs:text-center sm:text-center md:text-right lg:text-left xl:text-left text-center"
+                                        className="mid-text3 mb-8 text-gray-300 text-base ml-auto xs:w-full sm:w-full md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-4 xl:p-4 p-4 xs:pl-4 sm:pl-4 md:pl-16 lg:pl-0 xl:pl-0 pl-4 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm xs:text-right sm:text-right md:text-right lg:text-left xl:text-left xs:text-center sm:text-center md:text-right lg:text-left xl:text-left text-center"
                                     >
                                         The Deviants are the first inhabitants
                                         of Astra Nova. They're perfect genetic
@@ -83,13 +91,16 @@ const About = () => {
                                         Follow the Deviant Trials on our
                                         Discord, or mint your own Deviant below.
                                     </p>
-                                    <div class="flex xs:justify-center xs:items-center sm:items-left sm:justify-left md:items-left md:justify-left lg:items-left lg:justify-left xl:items-left xl:justify-left justify-left items-left w-full">
+                                    <div class="flex xs:justify-center xs:items-center sm:items-left sm:justify-left md:items-left md:justify-left lg:items-left lg:justify-left xl:items-left xl:justify-left justify-left items-left w-full flex flex-col">
                                         <button
                                             type="button"
-                                            className=" w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
+                                            className=" disabled cursor-not-allowed w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-teal-500 hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
                                         >
                                             Deviate Now
                                         </button>
+                                        <span className="animate-pulse text-gray-300 mt-4 text-sm xs:text-center sm:text-center md:text-left lg:text-left xl:text-left text-center">
+                                            * Coming Soon
+                                        </span>
                                     </div>
                                 </motion.span>
                             </div>

@@ -11,6 +11,7 @@
 
 body {
     background-color: #0f1121 !important;
+    // background-color: #212035 !important;
     visibility: hidden;
     /* overflow-x: hidden !important; */
 }
@@ -283,37 +284,83 @@ body {
         clip-path: inset(0% 0% -9% 0%);
     }
 }
+.heading {
+    clip-path: inset(100% 0% 0% 0%);
+    transition: clip-path 1.2s cubic-bezier(0.99, 0.9, 0.05, 1);
+
+    &.is-reveal {
+        transition-delay: 200ms;
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
 
 @media only screen and (max-width: 600px) {
-    .background-pattern {
-        top: 90vh;
-    }
     .background-pattern0 {
         top: 90vh;
+        right: 0px;
     }
-
+    .background-pattern {
+        top: 90vh;
+        right: 0px;
+    }
     .background-pattern1 {
-        top: 200vh;
+        top: 190vh;
         right: 0px;
     }
     .background-pattern2 {
-        top: 200vh;
+        top: 190vh;
         right: 0px;
     }
     .background-pattern3 {
-        top: 350vh;
+        top: 310vh;
     }
     .background-pattern4 {
-        top: 350vh;
+        top: 310vh;
     }
     .background-pattern5 {
-        top: 550vh;
+        top: 450vh;
         width: 300px;
         height: 300px;
         right: 0px;
     }
     .background-pattern6 {
-        top: 550vh;
+        top: 450vh;
+        width: 300px;
+        height: 300px;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .background-pattern {
+        top: 100vh;
+    }
+    .background-pattern0 {
+        top: 100vh;
+    }
+
+    .background-pattern1 {
+        top: 210vh;
+        right: 0px;
+    }
+    .background-pattern2 {
+        top: 210vh;
+        right: 0px;
+    }
+    .background-pattern3 {
+        top: 360vh;
+    }
+    .background-pattern4 {
+        top: 360vh;
+    }
+    .background-pattern5 {
+        top: 520vh;
+        width: 300px;
+        height: 300px;
+        right: 0px;
+    }
+    .background-pattern6 {
+        top: 520vh;
         width: 300px;
         height: 300px;
         right: 0px;
@@ -354,8 +401,42 @@ body {
         right: 0px;
     }
 }
+@media only screen and (min-width: 992px) {
+    .background-pattern {
+        top: 100vh;
+    }
+    .background-pattern0 {
+        top: 100vh;
+    }
 
-@media only screen and (min-width: 600px) {
+    .background-pattern1 {
+        top: 210vh;
+        right: 0px;
+    }
+    .background-pattern2 {
+        top: 210vh;
+        right: 0px;
+    }
+    .background-pattern3 {
+        top: 360vh;
+    }
+    .background-pattern4 {
+        top: 360vh;
+    }
+    .background-pattern5 {
+        top: 520vh;
+        width: 300px;
+        height: 300px;
+        right: 0px;
+    }
+    .background-pattern6 {
+        top: 520vh;
+        width: 300px;
+        height: 300px;
+        right: 0px;
+    }
+}
+@media only screen and (min-width: 1200px) {
     .background-pattern {
         top: 100vh;
     }

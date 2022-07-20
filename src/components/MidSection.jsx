@@ -44,26 +44,28 @@ const MidSection = () => {
 
             <div className="max-w-[1340px] mx-auto text-center flex flex-col ">
                 <h1
-                    class="mid-head1 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right"
+                    class="mid-head1 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right"
                     data-scroll
                 >
                     The End was just the Beginning.
                 </h1>
 
-                <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[170px] my-8 flex mt-20 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
+                <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[170px] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
                     <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4">
+                        {/* The End was just beginning section */}
                         <img
                             class="mid-img1 object-cover object-center rounded  sm:w-[350px] sm:float-right sm:ml-auto  sm:h-[400px] lg:w-[450px] lg:h-[550px]"
                             alt="hero"
                             src={portal}
                             data-scroll
                         />
+                        {/* The End was just beginning section */}
                     </div>
                     <div
                         className="mid-text1 last xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10"
                         data-scroll
                     >
-                        <p className=" text-gray-300  font-normal leading-6 text-right xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-0 lg:pl-0 xl:pl-0 pl-16 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm ">
+                        <p className=" text-gray-300  font-normal leading-6 text-right xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-0 lg:pl-0 xl:pl-0 pl-16 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm ">
                             The Five Worlds lie in ruin, casualties of a
                             celestial warbetween order and chaos. The Day of
                             Destruction claimed many lives-but there were some
@@ -97,7 +99,7 @@ const MidSection = () => {
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
-                            class="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-6xl lg:text-8xl xl:text-8xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left"
+                            class="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left"
                         >
                             The Fate of the Universe is in your Hands.
                         </h1>
@@ -113,7 +115,7 @@ const MidSection = () => {
                                 <motion.span variants={fadeIn()}>
                                     <p
                                         data-scroll
-                                        className="mid-text2 text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-16 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 pr-16 xs:text-sm sm:text-sm md:text-base lg:text-base xl:text-base text-sm"
+                                        className="mid-text2 text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-16 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 pr-16 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm"
                                     >
                                         <span className="text-lg italic font-light">
                                             Even on Astra Nova, survival is no
