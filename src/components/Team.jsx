@@ -3,6 +3,7 @@ import Tabs from "./Tab";
 import { team } from "../utils/team";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
+import useLocoScroll from "../utils/locoScroll";
 
 export default function Team() {
     const [role, setRole] = useState("Management");
@@ -10,6 +11,7 @@ export default function Team() {
     const setRoleFunc = (val) => {
         setRole(val);
     };
+    useLocoScroll(true);
 
     return (
         <div className="text-white flex flex-row w-full" data-scroll-section>

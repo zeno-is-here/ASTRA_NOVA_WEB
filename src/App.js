@@ -12,6 +12,7 @@ import LoadingOverlay from "./components/LoadingOverlay";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import useLocoScroll from "./utils/locoScroll";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
     const [preLoader, setPreLoader] = useState(true);
@@ -66,7 +67,7 @@ function App() {
                 ".main-container",
                 {
                     opacity: 0,
-                    duration: 3,
+                    duration: 5,
                     ease: "power4.out",
                     stagger: {
                         amount: 0.5,
@@ -74,7 +75,7 @@ function App() {
                 },
                 {
                     opacity: 1,
-                    duration: 3,
+                    duration: 5,
                 }
             );
         }
@@ -89,7 +90,7 @@ function App() {
             {preLoader ? (
                 <LoadingOverlay title={title} logo={logo} />
             ) : (
-                <div className="main-container" data-scroll-container>
+                <div className="main-container app" data-scroll-container>
                     <CustomCursor />
                     <Navbar />
                     <Hero />
