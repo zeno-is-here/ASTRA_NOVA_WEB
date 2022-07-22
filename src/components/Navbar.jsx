@@ -86,7 +86,7 @@ export default function Example() {
                             </div>
                             <div className="flex items-center">
                                 <div className="flex-shrink-0">
-                                    <div class="flex justify-center"></div>
+                                    <div className="flex justify-center"></div>
                                 </div>
                                 <div className="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center"></div>
                             </div>
@@ -112,8 +112,8 @@ export default function Example() {
                                 }`}
                             >
                                 <ul className="w-full flex flex-col items-center justify-center mb-[40%] gap-y-7">
-                                    {navigation.map((nav) => (
-                                        <li className="nav-li">
+                                    {navigation.map((nav, i) => (
+                                        <li className="nav-li" key={i}>
                                             <a
                                                 href={nav.href}
                                                 className={classNames(

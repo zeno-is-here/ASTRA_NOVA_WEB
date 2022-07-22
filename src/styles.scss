@@ -10,8 +10,9 @@
 }
 
 body {
-    background-color: #0f1121 !important;
+    // background-color: #0f1121 !important;
     // background-color: #212035 !important;
+    background-color: #202034 !important;
     visibility: hidden;
     overscroll-behavior-y: none;
     scroll-behavior: smooth;
@@ -239,6 +240,7 @@ body {
 
     &.is-reveal {
         clip-path: inset(0% 0% 0% 0%);
+        width: 100%;
     }
 }
 

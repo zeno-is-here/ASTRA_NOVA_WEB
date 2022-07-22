@@ -65,7 +65,7 @@ const navigation = {
             href: "https://t.me/astranovaofficial",
             icon: (props) => (
                 <svg
-                    class="w-6 h-6 text-gray-400  fill-current"
+                    className="w-6 h-6 text-gray-400  fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 496 512"
                 >
@@ -78,7 +78,7 @@ const navigation = {
         //     href: "https://www.reddit.com/r/Astranovaofficial/",
         //     icon: (props) => (
         //         <svg
-        //             class="w-6 h-6 text-gray-400 fill-current"
+        //             className="w-6 h-6 text-gray-400 fill-current"
         //             viewBox="0 0 24 24"
         //             xmlns="http://www.w3.org/2000/svg"
         //         >
@@ -95,7 +95,7 @@ const navigation = {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-6 h-6 text-gray-400 fill-current"
+                    className="w-6 h-6 text-gray-400 fill-current"
                     viewBox="0 0 16 16"
                 >
                     {" "}

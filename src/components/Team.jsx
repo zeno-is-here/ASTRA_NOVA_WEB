@@ -35,7 +35,7 @@ export default function Team() {
                     </div>
 
                     <Tabs setVal={setRoleFunc} />
-                    <ul className="flex flex-row flex-wrap gap-x-[3%] gap-y-[80px] justify-center place-items-start">
+                    <ul className="flex flex-row flex-wrap gap-x-[3%] gap-y-[80px] justify-center items-stretch  place-items-start">
                         {team
                             .filter((teamP) => teamP.team === role)
                             .map((person) => (
@@ -47,7 +47,7 @@ export default function Team() {
                                         variants={staggerContainer}
                                         animate="animate"
                                         initial="initial"
-                                        className="space-y-2"
+                                        className="h-full content-between flex flex-col justify-between"
                                     >
                                         {/* <div className="aspect-w-3 aspect-h-2"> */}
                                         <motion.span variants={fadeIn()}>
@@ -58,10 +58,11 @@ export default function Team() {
                                             />
                                         </motion.span>
                                         {/* </div> */}
-                                        <div className="flex flex-col justify-center items-center text-center relative h-1/10">
-                                            <div className="leading-6">
+                                        <div className="flex flex-col justify-center items-center text-center relative h-1/10 flex-1">
+                                            <div className="leading-6 h-full flex flex-col justify-between">
                                                 <motion.span
                                                     variants={fadeIn()}
+                                                    className ="my-2"
                                                 >
                                                     <h3 className="font-base title-font">
                                                         {person.name}

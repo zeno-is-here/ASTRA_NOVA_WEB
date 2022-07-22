@@ -44,17 +44,17 @@ const MidSection = () => {
 
             <div className="max-w-[1340px] mx-auto text-center flex flex-col ">
                 <h1
-                    class="mid-head1 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right"
+                    className="mid-head1 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 pr-5 text-right"
                     data-scroll
                 >
-                    The End was just the Beginning.
+                    The end was just the beginning.
                 </h1>
 
                 <div className="max-w-full sm:mx-[50px] md:mx-[100px] lg:mx-[170px] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
                     <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4">
                         {/* The End was just beginning section */}
                         <img
-                            class="mid-img1 object-cover object-center rounded  sm:w-[350px] sm:float-right sm:ml-auto  sm:h-[400px] lg:w-[450px] lg:h-[550px]"
+                            className="mid-img1 object-cover object-center rounded  sm:w-[350px] sm:float-right sm:ml-auto  sm:h-[400px] lg:w-[450px] lg:h-[550px]"
                             alt="hero"
                             src={portal}
                             data-scroll
@@ -66,23 +66,23 @@ const MidSection = () => {
                         data-scroll
                     >
                         <p className=" text-gray-300  font-normal leading-6 text-right xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-0 lg:pl-0 xl:pl-0 pl-16 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm ">
-                            The Five Worlds lie in ruin, casualties of a
-                            celestial warbetween order and chaos. The Day of
-                            Destruction claimed many lives-but there were some
+                        <span className="font-bold">The Five Worlds lie in ruin</span>, casualties of a
+                            celestial war between order and chaos. The Day of
+                            Destruction claimed many lives—but there were some
                             who survived. Those brave enough to enter the
                             ancient gateways were transported to the last
-                            bastion of hope in the universe: Astra Nova.
+                            bastion of hope in the universe:<span className="font-bold">Astra Nova</span>.
                         </p>
                     </div>
                 </div>
                 {/* <div className="flex justify-center gap-6 items-center flex-col sm:flex-col md:flex-row md:gap-5 lg:flex-row lg:justfy-center lg:gap-5 my-8 mx-6">
                     <img
-                        class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
+                        className="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
                         alt="hero"
                         src={first}
                     />
                     <img
-                        class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
+                        className="object-cover object-center rounded sm:w-[300px] sm:h-[300px] w-[250px] h-[250px]"
                         alt="hero"
                         src={first}
                     />
@@ -99,9 +99,9 @@ const MidSection = () => {
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
-                            class="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left"
+                            className="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 pl-8 xs:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 pr-5 text-left"
                         >
-                            The Fate of the Universe is in your Hands.
+                            The future of the universe is in your hands.
                         </h1>
                     </motion.span>
                     <motion.div
@@ -117,25 +117,18 @@ const MidSection = () => {
                                         data-scroll
                                         className="mid-text2 text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-16 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 pr-16 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm"
                                     >
-                                        <span className="text-lg italic font-light">
+                                        <span className="text-lg italic font-bold">
                                             Even on Astra Nova, survival is no
                                             guarantee.
                                         </span>
                                         <br /> <br />
-                                        For this safe haven harbors deep
-                                        secrets, old rivalries threaten to upset
-                                        the new order, and agents of the
-                                        darkness lurk around every corner
-                                        Together, those who remain must work
-                                        together to restore their trust, recover
-                                        what was lost, and rebuild the world to
-                                        come - before it's too late.
+                                        —for this safe haven harbors deep secrets. Old rivalries threaten to upset the new order, and agents of the darkness lurk around every corner. Those who remain must work together to restore their trust, recover what was lost, and rebuild the world to come—before it's too late.
                                     </p>
                                 </motion.span>
                             </div>
                             {/* <div className="bottomImage">
                                 <img
-                                    class="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[700px]"
+                                    className="object-cover object-center rounded sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[700px]"
                                     alt="hero"
                                     src={devi1}
                                 />
@@ -143,7 +136,7 @@ const MidSection = () => {
                         </div>
                         <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-0 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 pl-0">
                             <img
-                                class="mid-img2 object-cover object-center rounded  sm:w-[350px]  sm:mr-auto sm:h-[450px] lg:w-[450px] lg:h-[550px]"
+                                className="mid-img2 object-cover object-center rounded  sm:w-[350px]  sm:mr-auto sm:h-[450px] lg:w-[450px] lg:h-[550px]"
                                 alt="hero"
                                 src={devi1}
                                 data-scroll
