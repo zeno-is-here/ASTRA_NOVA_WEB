@@ -5,7 +5,7 @@ const Hero = () => {
   console.log(size.width <= 767);
   return (
     <div
-      className="relative flex flex-col items-center justify-center h-[80vh] w-[80vw] mx-auto overflow-hidden -z-10"
+      className="relative flex flex-col items-center justify-center md:h-[80vh] w-[80vw] mx-auto overflow-hidden -z-10"
       data-scroll-section
     >
       {size.width <= 767 && (

@@ -12,7 +12,7 @@ export default function Faq() {
         <div className="text-white flex flex-row" data-scroll-section>
             {/* <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%]"></div> */}
 
-            <div className="w-[80%] mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+            <div className="md:w-[80%] xs:w-full  mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
                 <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] uppercase">
                     Frequently asked questions?
                 </h2>
@@ -54,7 +54,7 @@ export default function Faq() {
                                     >
                                         <Disclosure.Panel
                                             as="dd"
-                                            className="mt-2 pr-12"
+                                            className="mt-2 md:pr-12"
                                         >
                                             <p
                                                 dangerouslySetInnerHTML={{

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div
-        className="text-white  lg:px-0 flex flex-row xs:mt-0 sm:mt-0 md:mt-20 lg:mt-28 xl:mt-28 mt-0"
+        className="text-white max-w-[1240px] mx-auto lg:px-0 flex flex-row xs:mt-0 sm:mt-0 md:mt-20 lg:mt-28 xl:mt-28 mt-0"
         data-scroll-section
       >
         <div
@@ -24,7 +24,7 @@ const About = () => {
           variants={staggerContainer}
           animate="animate"
           initial="initial"
-          className="max-w-[1240px] mx-auto text-center flex flex-col lg:flex-col mb-20 mt-20"
+          className=" min-w-full mx-auto text-center flex flex-col lg:flex-col md:mb-20 md:mt-20"
         >
           <div>
             <motion.span variants={fadeIn()}>
@@ -65,7 +65,7 @@ const About = () => {
                 </div>
                 <motion.span
                   variants={fadeIn()}
-                  className="xs:w-full sm:w-full md:w-full lg:w-2/5 xl:w-2/5 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:p-6 sm:p-6 md:p-6 lg:p-0 xl:p-0 p-6 xs:pr-4 sm:pr-8 md:pr-12 lg:pr-0 xl:pr-0 pr-4"
+                  className="xs:w-full sm:w-full md:w-full lg:w-2/5 xl:w-2/5 w-full xs:mt-0 sm:mt-0 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:p-6 sm:p-6 md:p-6 lg:p-0 xl:p-0 p-6 xs:pr-4 sm:pr-8 md:pr-12 lg:pr-0 xl:pr-0 pr-4"
                 >
                   <p
                     data-scroll
