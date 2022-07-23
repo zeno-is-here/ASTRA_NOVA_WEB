@@ -39,7 +39,7 @@ const MidSection = () => {
             ></div>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern"
+                className="background-pattern hidden md:block"
             ></div>
 
             <div className="max-w-[1340px] mx-auto text-center flex flex-col ">
@@ -94,7 +94,7 @@ const MidSection = () => {
                     ></div>
                     <div
                         // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                        className="background-pattern2"
+                        className="background-pattern2 hidden md:block"
                     ></div>
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1

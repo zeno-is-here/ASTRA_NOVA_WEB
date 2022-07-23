@@ -12,11 +12,11 @@ const About = () => {
       >
         <div
           // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-          className="background-pattern3"
+          className="background-pattern3 hidden md:block"
         ></div>
         <div
           // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-          className="background-pattern4"
+          className="background-pattern4 hidden md:block"
         ></div>
         {/* <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%] "></div> */}
 

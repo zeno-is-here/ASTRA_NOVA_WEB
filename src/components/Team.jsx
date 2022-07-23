@@ -17,11 +17,11 @@ export default function Team() {
         <div className="text-white flex flex-row w-full" data-scroll-section>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern5"
+                className="background-pattern5 hidden md:block"
             ></div>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern6"
+                className="background-pattern6 hidden md:block"
             ></div>
             <div className="mx-auto py-16  px-12 lg:px-8 w-full">
                 <div className="space-y-12">
