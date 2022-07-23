@@ -44,7 +44,7 @@ const MidSection = () => {
 
             <div className="max-w-[1340px] mx-auto text-center flex flex-col ">
                 <h1
-                    className="mid-head1 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 md:pr-5 md:text-right"
+                    className="mid-head1 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-5 sm:pr-5 md:pr-20 lg:pr-40 xl:pr-40 md:pr-5 md:text-right"
                     data-scroll
                 >
                     The end was just the beginning.
@@ -99,7 +99,7 @@ const MidSection = () => {
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
-                            className="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-gray-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 md:pl-8 md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 md:text-left"
+                            className="mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-teal-300 xs:pl-8 sm:pl-12 md:pl-20 lg:pl-24 xl:pl-32 md:pl-8 md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 md:text-left"
                         >
                             The future of the universe is in your hands.
                         </h1>
