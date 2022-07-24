@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from "react";
-import first from "../assets/girl.png";
+import React from "react";
 import portal from "../utils/AN-planet.jpg";
 import devi1 from "../utils/devi1.jpg";
 import { motion } from "framer-motion";

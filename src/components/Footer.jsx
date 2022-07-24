@@ -1,7 +1,6 @@
-import locomotiveScroll from "locomotive-scroll";
+
 import logo from "../assets/astra-novo.svg";
 import unrealengine from "../assets/unrealengine.png";
-import { useEffect } from "react";
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
     main: [
