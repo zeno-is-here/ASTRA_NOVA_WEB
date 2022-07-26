@@ -17,16 +17,16 @@ export default function Team() {
         <div className="text-white flex flex-row w-full" data-scroll-section>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern5"
+                className="background-pattern5 hidden md:block"
             ></div>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern6"
+                className="background-pattern6 hidden md:block"
             ></div>
             <div className="mx-auto py-16  px-12 lg:px-8 w-full">
                 <div className="space-y-12">
                     <div className="space-y-5 text-center sm:space-y-4">
-                        <h2 className="sm:text-[34px] text-2xl uppercase title-font font-extrabold ">
+                        <h2 className="tk-roma font-title sm:text-7xl text-4xl uppercase title-font font-bold ">
                             Meet Our Team
                         </h2>
                         <p className="text-gray-300 leading-relaxed">
@@ -35,7 +35,7 @@ export default function Team() {
                     </div>
 
                     <Tabs setVal={setRoleFunc} />
-                    <ul className="flex flex-row flex-wrap gap-x-[3%] gap-y-[80px] justify-center place-items-start">
+                    <ul className="flex flex-row flex-wrap gap-x-[3%] gap-y-[80px] justify-center items-stretch  place-items-start">
                         {team
                             .filter((teamP) => teamP.team === role)
                             .map((person) => (
@@ -47,7 +47,7 @@ export default function Team() {
                                         variants={staggerContainer}
                                         animate="animate"
                                         initial="initial"
-                                        className="space-y-2"
+                                        className="h-full content-between flex flex-col justify-between"
                                     >
                                         {/* <div className="aspect-w-3 aspect-h-2"> */}
                                         <motion.span variants={fadeIn()}>
@@ -58,10 +58,11 @@ export default function Team() {
                                             />
                                         </motion.span>
                                         {/* </div> */}
-                                        <div className="flex flex-col justify-center items-center text-center relative h-1/10">
-                                            <div className="leading-6">
+                                        <div className="flex flex-col justify-center items-center text-center relative h-1/10 flex-1">
+                                            <div className="leading-6 h-full flex flex-col justify-between">
                                                 <motion.span
                                                     variants={fadeIn()}
+                                                    className ="my-2"
                                                 >
                                                     <h3 className="font-base title-font">
                                                         {person.name}

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 * {
     font-family: "Inter", sans-serif;
@@ -10,8 +10,9 @@
 }
 
 body {
-    background-color: #0f1121 !important;
+    // background-color: #0f1121 !important;
     // background-color: #212035 !important;
+    background-color: #23263F !important;
     visibility: hidden;
     overscroll-behavior-y: none;
     scroll-behavior: smooth;
@@ -239,6 +240,7 @@ body {
 
     &.is-reveal {
         clip-path: inset(0% 0% 0% 0%);
+        width: 100%;
     }
 }
 
@@ -514,3 +516,33 @@ body {
         right: 0px;
     }
 }
+
+@-moz-document url-prefix() {
+    body {
+        background-color: #1f2235  !important;
+    }
+    .background-pattern {
+        opacity:.5;
+    }
+    .background-pattern0 {
+        opacity:.4;
+    }
+    .background-pattern1 {
+        opacity:.5;
+    }
+    .background-pattern2 {
+        opacity:.5;
+    }
+    .background-pattern3 {
+        opacity:.5;
+    }
+    .background-pattern4 {
+        opacity:.5;
+    }
+    .background-pattern5 {
+        opacity:.5;
+    }
+    .background-pattern6 {
+        opacity:.5;
+    }
+  }

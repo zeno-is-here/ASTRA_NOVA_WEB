@@ -1,13 +1,12 @@
-import locomotiveScroll from "locomotive-scroll";
+
 import logo from "../assets/astra-novo.svg";
 import unrealengine from "../assets/unrealengine.png";
-import { useEffect } from "react";
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
     main: [
         { name: "Terms & Conditions", href: "#" },
         { name: "Privacy Policy", href: "#" },
-        { name: "Wallpaper", href: "#" },
+        // { name: "Wallpaper", href: "#" },
     ],
     social: [
         {
@@ -65,7 +64,7 @@ const navigation = {
             href: "https://t.me/astranovaofficial",
             icon: (props) => (
                 <svg
-                    class="w-6 h-6 text-gray-400  fill-current"
+                    className="w-6 h-6 text-gray-400  fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 496 512"
                 >
@@ -78,7 +77,7 @@ const navigation = {
         //     href: "https://www.reddit.com/r/Astranovaofficial/",
         //     icon: (props) => (
         //         <svg
-        //             class="w-6 h-6 text-gray-400 fill-current"
+        //             className="w-6 h-6 text-gray-400 fill-current"
         //             viewBox="0 0 24 24"
         //             xmlns="http://www.w3.org/2000/svg"
         //         >
@@ -95,7 +94,7 @@ const navigation = {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-6 h-6 text-gray-400 fill-current"
+                    className="w-6 h-6 text-gray-400 fill-current"
                     viewBox="0 0 16 16"
                 >
                     {" "}
@@ -110,8 +109,9 @@ export default function Footer() {
     return (
         <footer className="bg-[#07070e] text-white" data-scroll-section>
             <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8 relative">
-                <div className="mt-8 flex justify-start space-x-5">
-                    <p className="md:mx-1 mx-8">Follow us</p>
+                <div className="mt-8 mb-8 md:mb-0 flex md:justify-start justify-center space-x-0 md:space-x-5 flex-wrap md:flex-nowrap">
+                    <p className="md:flex-initial md:mx-1 mx-8 min-w-full md:min-w-0 text-center md:text-left md:pb-0 pb-8">Follow us</p>
+                    <div className="md:flex-initial flex justify-start space-x-5">
                     {navigation.social.map((item) => (
                         <a
                             key={item.name}
@@ -122,11 +122,12 @@ export default function Footer() {
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </a>
                     ))}
+                    </div>
                 </div>
-                <div className="image absolute lg:top-44 top-32 sm:left-[23%] xs:left-[23%] md:left-[33%] lg:left-4 xl:left-0 left-[23%]">
+                <div className="image absolute lg:top-16 md:top-16   md:right-32 sm:right-26 top-48   sm:left-[17%]  md:left-auto sm:left-auto left-[17%]">
                     <img src={logo} alt="" className="object-cover" />
                 </div>
-                <div className="image absolute lg:top-44 top-32 sm:left-[56%] xs:left-[56%] md:left-[53%] lg:left-36 xl:left-36 left-[56%]">
+                <div className="image absolute lg:top-16 md:top-16  md:right-8  sm:right-4 top-48  sm:left-[58%]   md:left-auto sm:left-auto left-[58%]">
                     <img
                         src={unrealengine}
                         alt=""
