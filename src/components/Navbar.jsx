@@ -3,8 +3,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 // import logo from "../assets/logo.png";
 
 const navigation = [
-    { name: "Astra Nova", href: "#" },
-    { name: 'WhitePaper', href: '#' },
+    { name: "Astra Nova", href: "#" , newTab: false},
+    { name: 'WhitePaper', href: 'https://astra-nova.gitbook.io/astra-nova-litepaper-v.1.0/', newTab: true },
     // { name: 'Nft Collections', href: '#' },
     // { name: 'Deviants', href: '#' },
     // { name: 'Meta RPG', href: '#' },
@@ -68,6 +68,7 @@ export default function Example() {
                                         <a
                                             key={item.name}
                                             href={item.href}
+                                            target={item.newTab ? "_blank" :  "_self"} rel="noopener noreferrer"
                                             className={classNames(
                                                 item.current
                                                     ? "bg-gray-900 text-white"
