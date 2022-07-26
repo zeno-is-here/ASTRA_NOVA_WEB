@@ -30,7 +30,7 @@ const About = () => {
             <motion.span variants={fadeIn()}>
               <h1
                 data-scroll
-                className="mid-head3 xs:text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-normal leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-0 sm:pr-0 md:pr-20 lg:pr-40 xl:pr-40 pr-0 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
+                className="tk-roma font-title mid-head3 xs:text-4xl sm:text-7xl md:text-7xl lg:text-7xl xl:text-7xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 xs:pr-0 sm:pr-0 md:pr-20 lg:pr-40 xl:pr-40 pr-0 xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
               >
                 Meet the Deviants
               </h1>

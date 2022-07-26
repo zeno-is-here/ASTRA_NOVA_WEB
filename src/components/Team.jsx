@@ -26,7 +26,7 @@ export default function Team() {
             <div className="mx-auto py-16  px-12 lg:px-8 w-full">
                 <div className="space-y-12">
                     <div className="space-y-5 text-center sm:space-y-4">
-                        <h2 className="sm:text-[34px] text-2xl uppercase title-font font-extrabold ">
+                        <h2 className="tk-roma font-title sm:text-7xl text-4xl uppercase title-font font-bold ">
                             Meet Our Team
                         </h2>
                         <p className="text-gray-300 leading-relaxed">

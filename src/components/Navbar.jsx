@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 
 const navigation = [
     { name: "Astra Nova", href: "#" },
+    { name: 'WhitePaper', href: '#' },
     // { name: 'Nft Collections', href: '#' },
     // { name: 'Deviants', href: '#' },
     // { name: 'Meta RPG', href: '#' },

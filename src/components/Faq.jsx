@@ -13,7 +13,7 @@ export default function Faq() {
             {/* <div className="w-[3%] h-[500px] blur-[40px] bg-[#0370c3] opacity-[0.35] rounded-[100%]"></div> */}
 
             <div className="md:w-[80%] xs:w-full  mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-                <h2 className=" text-2xl lg:text-left font-extrabold text-center sm:text-[34px] text-[#E0E0E0] uppercase">
+                <h2 className="tk-roma font-title text-4xl  sm:text-7xl lg:text-left font-bold text-center text-[#E0E0E0] uppercase">
                     Frequently asked questions?
                 </h2>
 

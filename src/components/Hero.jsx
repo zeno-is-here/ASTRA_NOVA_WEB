@@ -2,10 +2,9 @@ import React from "react";
 import useWindowSize from "../hooks/responsive";
 const Hero = () => {
   const size = useWindowSize();
-  console.log(size.width <= 767);
   return (
     <div
-      className="relative flex flex-col items-center justify-center md:h-[80vh] w-[80vw] mx-auto overflow-hidden -z-10"
+      className="relative flex flex-col items-center justify-center md:h-[85vh] w-[80vw] mx-auto overflow-hidden -z-10"
       data-scroll-section
     >
       {size.width <= 767 && (

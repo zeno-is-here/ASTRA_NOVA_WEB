@@ -124,10 +124,10 @@ export default function Footer() {
                     ))}
                     </div>
                 </div>
-                <div className="image absolute lg:top-44 md:top-32  top-48  sm:left-[17%] md:left-[33%] lg:left-4 xl:left-0 left-[17%]">
+                <div className="image absolute lg:top-16 md:top-16   md:right-32 sm:right-26 top-48   sm:left-[17%]  md:left-auto sm:left-auto left-[17%]">
                     <img src={logo} alt="" className="object-cover" />
                 </div>
-                <div className="image absolute lg:top-44 md:top-32  top-48  sm:left-[58%] md:left-[53%] lg:left-36 xl:left-36 left-[58%]">
+                <div className="image absolute lg:top-16 md:top-16  md:right-8  sm:right-4 top-48  sm:left-[58%]   md:left-auto sm:left-auto left-[58%]">
                     <img
                         src={unrealengine}
                         alt=""
