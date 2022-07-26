@@ -1,6 +1,6 @@
 import { Disclosure, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import logo from "../assets/logo.png";
+// import logo from "../assets/logo.png";
 
 const navigation = [
     { name: "Astra Nova", href: "#" },
