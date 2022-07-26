@@ -516,3 +516,33 @@ body {
         right: 0px;
     }
 }
+
+@-moz-document url-prefix() {
+    body {
+        background-color: #1f2235  !important;
+    }
+    .background-pattern {
+        opacity:.5;
+    }
+    .background-pattern0 {
+        opacity:.4;
+    }
+    .background-pattern1 {
+        opacity:.5;
+    }
+    .background-pattern2 {
+        opacity:.5;
+    }
+    .background-pattern3 {
+        opacity:.5;
+    }
+    .background-pattern4 {
+        opacity:.5;
+    }
+    .background-pattern5 {
+        opacity:.5;
+    }
+    .background-pattern6 {
+        opacity:.5;
+    }
+  }
