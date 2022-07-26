@@ -6,7 +6,7 @@ const navigation = {
     main: [
         { name: "Terms & Conditions", href: "#" },
         { name: "Privacy Policy", href: "#" },
-        { name: "Wallpaper", href: "#" },
+        // { name: "Wallpaper", href: "#" },
     ],
     social: [
         {
