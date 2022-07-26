@@ -2,6 +2,7 @@
   "name": "landings-site_freelance",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
