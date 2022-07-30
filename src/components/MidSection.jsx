@@ -104,7 +104,7 @@ const MidSection = () => {
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
-                            className="tk-roma font-title mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-8 sm:pl-[10vw] md:pl-[10vw] lg:pl-[10vw] xl:pl-[10vw] md:pl-[10vw] md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 md:text-left"
+                            className="tk-roma break-normal font-title mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-8 sm:pl-[10vw] md:pl-[10vw] lg:pl-[10vw] xl:pl-[10vw] md:pl-[10vw] md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 sm:py-0 py-1 md:text-left"
                         >
                             The future of the universe <br></br>is in your hands.
                         </h1>
