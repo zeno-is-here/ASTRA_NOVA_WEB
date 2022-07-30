@@ -13,7 +13,7 @@ body {
     // background-color: #0f1121 !important;
     // background-color: #212035 !important;
     background-color: #23263F !important;
-    visibility: hidden;
+    visibility: visible;
     overscroll-behavior-y: none;
     scroll-behavior: smooth;
     /* overflow-x: hidden !important; */
@@ -301,6 +301,16 @@ body {
     }
 }
 
+
+.pg-viewer-wrapper {
+    .document-container  {
+        padding: 30px!important;
+        width: 80%!important;
+        background: #fff!important;
+        margin: auto!important;
+    }
+    
+}
 @media only screen and (max-width: 600px) {
     .background-pattern0 {
         top: 100vh;

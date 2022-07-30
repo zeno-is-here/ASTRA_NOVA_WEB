@@ -1,12 +1,11 @@
 
 import logo from "../assets/astra-novo.svg";
 import unrealengine from "../assets/unrealengine.png";
-/* This example requires Tailwind CSS v2.0+ */
 const navigation = {
     main: [
-        { name: "Terms & Conditions", href: "#" },
-        { name: "Privacy Policy", href: "#" },
-        { name: "WhitePaper", href: "https://astra-nova.gitbook.io/astra-nova-litepaper-v.1.0/" },
+        { name: "Terms & Conditions", href: "/terms" ,newTab: true},
+        { name: "Privacy Policy", href: "/privacy", newTab: true },
+        { name: "WhitePaper", href: "https://astra-nova.gitbook.io/astra-nova-litepaper-v.1.0/", newTab: true },
     ],
     social: [
         {
@@ -142,12 +141,14 @@ export default function Footer() {
                         <div key={item.name} className="px-5 py-2">
                             <a
                                 href={item.href}
+                                target={item.newTab ? "_blank" :  "_self"} rel="noopener noreferrer"
                                 className="text-base underline hover:text-gray-400 hover:ease-in-out duration-500"
                             >
                                 {item.name}
                             </a>
                         </div>
                     ))}
+
                 </nav>
                 <p className="lg:mt-8 text-center text-sm mt-16">
                     Astra Nova &copy; 2022, All rights reserved
