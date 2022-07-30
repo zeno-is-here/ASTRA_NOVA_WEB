@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 // import logo from "../assets/logo.png";
 
 const navigation = [
-    { name: "Astra Nova", href: "#" , newTab: false},
+    { name: "Astra Nova", href: "/" , newTab: false},
     { name: 'WhitePaper', href: 'https://astra-nova.gitbook.io/astra-nova-litepaper-v.1.0/', newTab: true },
     // { name: 'Nft Collections', href: '#' },
     // { name: 'Deviants', href: '#' },

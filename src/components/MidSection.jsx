@@ -36,14 +36,7 @@ const MidSection = () => {
 //max-w-[1340px]
     return (
         <div className="w-full py-8 flex flex-row " data-scroll-section>
-            <div
-                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern0"
-            ></div>
-            <div
-                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                className="background-pattern hidden md:block"
-            ></div>
+
 
             <div className="max-w-full mx-auto text-center flex flex-col ">
                 <h1
@@ -53,19 +46,27 @@ const MidSection = () => {
                     The end was just the beginning.
                 </h1>
 
-                <div className="max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
-                    <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:px-0 sm:px-0 md:px-0 lg:px-0 xl:px-0">
+                <div className=" relative max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
+                <div
+                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
+                className="background-pattern0"
+            ></div>
+            <div
+                // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
+                className="background-pattern hidden md:block"
+            ></div>
+                    <div className="z-300 mid flex xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:px-0 sm:px-0 md:px-0 lg:px-0 xl:px-0">
                         {/* The End was just beginning section */}
                         {size.width <= 767 && (
                         <img
-                            className="mid-img1 object-cover object-center rounded  sm:w-full sm:float-right sm:ml-auto  sm:h-auto lg:w-full lg:h-auto"
+                            className=" mid-img1 object-cover object-center rounded  sm:w-full sm:float-right sm:ml-auto  sm:h-auto lg:w-full lg:h-auto z-300"
                             alt="hero"
                             src={planetMobile}
                             data-scroll
                         />)}
                          {size.width > 767 && (
                         <img
-                            className="mid-img1 object-cover object-center rounded  sm:w-full sm:float-right sm:ml-auto  sm:h-[400px] lg:w-full lg:h-auto"
+                            className="mid-img1 object-cover object-center rounded  sm:w-full sm:float-right sm:ml-auto  sm:h-[400px] lg:w-full lg:h-auto z-300"
                             alt="hero"
                             src={planet}
                             data-scroll
@@ -99,14 +100,7 @@ const MidSection = () => {
                     />
                 </div> */}
                 <div className="w-full md:mt-8">
-                    <div
-                        // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                        className="background-pattern1"
-                    ></div>
-                    <div
-                        // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
-                        className="background-pattern2 hidden md:block"
-                    ></div>
+
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
@@ -119,8 +113,16 @@ const MidSection = () => {
                         variants={staggerContainer}
                         initial="inital"
                         animate="animate"
-                        className=" xs:w-full sm:ml-[50px] md:ml-[10vw] lg:ml-[10vw] sm:w-full md:w-full lg:w-full xl:w-full w-full  mx-auto text-center flex  xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row flex-col-reverse xs:mt-10 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-0 mt-10"
+                        className=" relative xs:w-full sm:ml-[50px] md:ml-[10vw] lg:ml-[10vw] sm:w-full md:w-full lg:w-full xl:w-full w-full  mx-auto text-center flex  xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row flex-col-reverse xs:mt-10 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-0 mt-10"
                     >
+                    <div
+                        // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
+                        className="background-pattern1"
+                    ></div>
+                    <div
+                        // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
+                        className="background-pattern2 hidden md:block"
+                    ></div>
                         <div className="first flex flex-col xs:w-full sm:w-full md:w-full lg:w-2/5 xl:w-2/5 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-8 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 md:pl-8">
                             <div className="md:w-4/5 text-left  my-8 ">
                                 <motion.span variants={fadeIn()}>
@@ -146,15 +148,15 @@ const MidSection = () => {
                                 />
                             </div> */}
                         </div>
-                        <div className="mid flex xs:w-full sm:w-full md:w-full lg:w-3/5 xl:w-3/5 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-0 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 pl-0">
+                        <div className="z-300 mid flex xs:w-full sm:w-full md:w-full lg:w-3/5 xl:w-3/5 w-full xs:px-0 sm:px-0 md:px-0 lg:px-4 xl:px-4 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:pl-0 sm:pl-12 md:pl-0 lg:pl-0 xl:pl-0 pl-0">
                         {size.width <= 767 && (<img
-                                className="mid-img2 object-cover object-center rounded  sm:w-full  sm:mr-auto sm:h-auto lg:w-full lg:h-auto"
+                                className="mid-img2 object-cover object-center rounded  sm:w-full  sm:mr-auto sm:h-auto lg:w-full lg:h-auto z-300 "
                                 alt="hero"
                                 src={portalMobile}
                                 data-scroll
                             />)}
                              {size.width > 767 && (<img
-                                className="mid-img2 object-cover object-center rounded  sm:w-full  sm:mr-auto sm:h-auto lg:w-full lg:h-auto"
+                                className="mid-img2 object-cover object-center rounded  sm:w-full  sm:mr-auto sm:h-auto lg:w-full lg:h-auto z-300 "
                                 alt="hero"
                                 src={portal}
                                 data-scroll
