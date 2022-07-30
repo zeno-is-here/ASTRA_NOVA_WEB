@@ -12,8 +12,7 @@ const Hero = () => {
           autoPlay
           loop
           muted
-          controls="true"
-          playsinline
+          playsInline
           className="absolute z-10 w-auto md:min-w-full md:min-h-full md:max-w-none w-screen xs:p-0 sm:p-0 md:p-10 lg:p-20 xl:p-20 p-0 mb-32"
         >
           <source src="/video-mobile.mp4" type="video/mp4" />
