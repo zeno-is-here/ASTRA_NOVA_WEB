@@ -39,11 +39,11 @@ const About = () => {
           <div className="flex flex-col xs:mt-12 sm:mt-12 md:mt-12 lg:mt-10 xl:mt-10 mt-12 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full items-righttext-right ml-auto ">
             <div className="lg:flex-grow w-full  flex flex-col lg:items-start md:text-left items-center text-right">
               <div className="max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
-                <div className="flex flex-start place-items-start mb-10 lg:mb-0 xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:pr-0 sm:pr-0 md:pr-0 lg:pr-0 xl:pr-0 pr-0 ">
+                <div className=" z-300 flex flex-start place-items-start mb-10 lg:mb-0 xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:pr-0 sm:pr-0 md:pr-0 lg:pr-0 xl:pr-0 pr-0 ">
                   {/* Looping video goes here */}
                   <img
                     data-scroll
-                    className="rounded-xl object-cover object-center mid-img3 z-10 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full xs:p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0 p-0 ml-auto -mt-2"
+                    className="mid-img4 rounded-xl object-cover object-center mid-img3 z-10 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full xs:p-0 sm:p-0 md:p-0 lg:p-0 xl:p-0 p-0 ml-auto -mt-2 z-300 "
                     alt="hero"
                     src={about}
                   />
