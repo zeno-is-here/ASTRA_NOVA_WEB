@@ -78,7 +78,7 @@ const MidSection = () => {
                         data-scroll
                     >
                         <p className=" text-gray-300  font-normal leading-6 text-left xs:w-full sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-16 lg:pl-16 xl:pl-16 pl-4 xs:text-base  sm:text-base  md:text-base  lg:text-base  xl:text-base  text-base ">
-                        <span className="font-bold text-1xl">The Five Worlds lie in ruin</span>, casualties of a
+                        <span className="text-base font-bold text-1xl">The Five Worlds lie in ruin</span>, casualties of a
                             celestial war between order and chaos.<br/> <br/>The Day of
                             Destruction claimed many lives—but there were some
                             who survived.<br/><br/> Those brave enough to enter the

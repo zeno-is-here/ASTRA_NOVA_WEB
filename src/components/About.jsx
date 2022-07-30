@@ -2,8 +2,9 @@ import React from "react";
 import about from "../assets/deviants.png";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
-
+import useWindowSize from "../hooks/responsive";
 const About = () => {
+  const size = useWindowSize();
   return (
     <>
       <div
@@ -64,14 +65,14 @@ const About = () => {
                   {/* Looping video ends here */}
                 </div>
                 <motion.span
-                  variants={fadeIn()}
+                  // variants={size.width <= 767 ? () => null : fadeIn()}
                   className="xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-0 sm:mt-0 md:mt-10 lg:mt-0 xl:mt-0 mt-10 xs:p-6 sm:p-6 md:p-6 lg:p-0 xl:p-0 p-6 xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-16 lg:pl-16 xl:pl-16 pl-0 xs:pr-4 sm:pr-8 md:pr-12 lg:pr-0 xl:pr-0 pr-4"
                 >
                   <p
                     data-scroll
                     className="mid-text3 mb-8 text-gray-300 text-base ml-auto xs:w-full sm:w-full md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-4 xl:p-0 p-4 xs:pl-4 sm:pl-4 md:pl-16 lg:pl-0 xl:pl-0 pl-4 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm xs:text-right sm:text-right md:text-right lg:text-left xl:text-left xs:text-left sm:text-center md:text-right lg:text-left xl:text-left text-left"
                   >
-                    <span className="font-bold text-1xl">The Deviants are the first inhabitants of Astra Nova.</span><br/><br/>
+                    <span className="text-base font-bold text-1xl">The Deviants are the first inhabitants of Astra Nova.</span><br/><br/>
                     They're perfect genetic replicants of the 15 species of the
                     Five Worlds, created to test the habitability of AstraNova.<br/><br/>
                     But to account for every possibility, the creators packed
