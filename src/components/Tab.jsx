@@ -28,7 +28,7 @@ export default function Tabs({ setVal }) {
                         setVal(e.target.value);
                         setCurrent(e.target.value);
                     }}
-                    className="block w-[150px] h-[50px] rounded-md text-white bg-[#c4400d] px-4 z-50"
+                    className="block w-[150px] h-[50px] rounded-md text-white bg-[#0dc4b2] px-4 z-50"
                     defaultValue={current}
                 >
                     {tabs.map((tab) => (
@@ -51,7 +51,7 @@ export default function Tabs({ setVal }) {
                             }}
                             className={classNames(
                                 current === tab.name
-                                    ? "bg-[#c4400d] text-gray-200"
+                                    ? "bg-[#0dc4b2] text-gray-200"
                                     : "text-white hover:text-gray-400 hover:cursor-pointer hover:ease-in-out duration-500",
                                 "px-3 py-2 font-normal text-base rounded-md leading-5 "
                             )}
