@@ -23,19 +23,19 @@ export default function Team() {
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
                 className="background-pattern6 hidden md:block"
             ></div>
-            <div className="mx-auto py-16  px-12 lg:px-8 w-full">
+            <div className="mx-auto py-16  md:px-12 px-4 lg:px-8 w-full">
                 <div className="space-y-12">
                     <div className="space-y-5 text-center sm:space-y-4">
-                        <h2 className="tk-roma font-title sm:text-7xl text-4xl uppercase title-font font-bold ">
+                        <h2 className="tk-roma font-title sm:text-5xl text-4xl title-font font-bold ">
                             Meet Our Team
                         </h2>
-                        <p className="text-gray-300 leading-relaxed">
+                        <p className="text-gray-300 leading-relaxed text-1xl font-bold">
                             Created by many. Meet them all.
                         </p>
                     </div>
 
                     <Tabs setVal={setRoleFunc} />
-                    <ul className="flex flex-row flex-wrap gap-x-[3%] gap-y-[80px] justify-center items-stretch  place-items-start">
+                    <ul className="flex flex-row flex-wrap gap-x-[3%] md:gap-y-[80px] gap-y-[30px] justify-center items-stretch  place-items-start">
                         {team
                             .filter((teamP) => teamP.team === role)
                             .map((person) => (
@@ -52,7 +52,7 @@ export default function Team() {
                                         {/* <div className="aspect-w-3 aspect-h-2"> */}
                                         <motion.span variants={fadeIn()}>
                                             <img
-                                                className="object-cover shadow-lg rounded-lg w-[220px] h-[220px] md:w-[200px] md:h-[200px] mx-auto"
+                                                className="object-cover shadow-lg rounded-lg w-[160px] h-[160px] md:w-[200px] md:h-[200px] mx-auto"
                                                 src={person.imageUrl}
                                                 alt={person.imageUrl}
                                             />
@@ -85,7 +85,7 @@ export default function Team() {
                                                         rel="noopener noreferrer"
                                                     >
                                                         <svg
-                                                            className="w-4 h-4 text-gray-500 fill-current mt-2 hover:text-gray-300 transition-ease-in-out duration-200 "
+                                                            className="w-4 h-4 text-gray-500 fill-[#0370c4] mt-2 hover:text-gray-300 transition-ease-in-out duration-200 "
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 448 512"
                                                         >

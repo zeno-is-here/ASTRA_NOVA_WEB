@@ -120,15 +120,15 @@ export const team = [
     },
     {
         team: "Marketing",
-        name: "Hafis Riyam",
+        name: "Ren Blaze",
         role: "Recruitment Manager",
-        imageUrl: "/imgs/Hafis Riyam.jpg",
+        imageUrl: "/imgs/Ren Blaze.jpg",
         linkedin: "https://www.linkedin.com/in",
     },
     {
         team: "Marketing",
         name: "Prem Sagar",
-        role: "Business Development",
+        role: "Business Development Executive",
         imageUrl: "/imgs/Prem Sagar.jpg",
         linkedin: "https://www.linkedin.com/in/prem-sagar-n-2062951b8/",
     },
@@ -156,7 +156,7 @@ export const team = [
     {
         team: "Marketing",
         name: "Jade",
-        role: "Business Operations Associate",
+        role: "Head of Community",
         imageUrl: "/imgs/Jade.jpg",
         linkedin: "https://www.linkedin.com/in/jade-nutty-2065a2243",
     },
