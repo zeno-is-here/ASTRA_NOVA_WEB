@@ -89,7 +89,7 @@ const About = () => {
                   <div className="flex xs:justify-center xs:items-center sm:items-left sm:justify-left md:items-left md:justify-left lg:items-left lg:justify-left xl:items-left xl:justify-left justify-left items-left w-full flex flex-col">
                     <button
                       type="button"
-                      className=" disabled animate-pulse cursor-not-allowed w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-[#c4400d] hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
+                      className=" disabled animate-pulse cursor-not-allowed w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-[#0dc4b2] hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
                     >
                       Coming Soon
                     </button>
