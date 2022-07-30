@@ -12,7 +12,6 @@ import LoadingOverlay from "./components/LoadingOverlay";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import useLocoScroll from "./utils/locoScroll";
-import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
     const [preLoader, setPreLoader] = useState(true);

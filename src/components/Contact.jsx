@@ -1,6 +1,5 @@
 import React, {useState} from "react";
-import captain from "../assets/captain.png";
-import { Typewriter, useTypewriter } from "react-simple-typewriter";
+import {  useTypewriter } from "react-simple-typewriter";
 import ContactModal from "./ContactModal";
 
 const Contact = () => {
@@ -63,7 +62,7 @@ const Contact = () => {
                                 type="button"
                                 className=" w-[200px] inline-flex items-center justify-center py-3 mt-8 border border-transparent text-base font-semibold rounded-full shadow-sm text-black bg-white uppercase"
                             >
-                                <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                                 Contact Now
                             </button>
                         </div>

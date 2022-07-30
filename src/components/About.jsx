@@ -71,31 +71,31 @@ const About = () => {
                     data-scroll
                     className="mid-text3 mb-8 text-gray-300 text-base ml-auto xs:w-full sm:w-full md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-4 xl:p-0 p-4 xs:pl-4 sm:pl-4 md:pl-16 lg:pl-0 xl:pl-0 pl-4 xs:text-sm sm:text-sm md:text-sm lg:text-sm xl:text-sm text-sm xs:text-right sm:text-right md:text-right lg:text-left xl:text-left xs:text-left sm:text-center md:text-right lg:text-left xl:text-left text-left"
                   >
-                    The Deviants are the first inhabitants of Astra Nova.
+                    <span className="font-bold text-1xl">The Deviants are the first inhabitants of Astra Nova.</span><br/><br/>
                     They're perfect genetic replicants of the 15 species of the
-                    Five Worlds, created to test the habitability of AstraNova.
+                    Five Worlds, created to test the habitability of AstraNova.<br/><br/>
                     But to account for every possibility, the creators packed
                     these mischievous miniatures with thousands of genetic
                     deviations—and got much more than they bargained for.
                     <br />
                     <br />
                     There are 10,000 unique Deviant non-fungible tokens (NFTs)
-                    that will reside on the Ethereum network. Each Deviant
+                    that will reside on the Ethereum network.<br/><br/> Each Deviant
                     offers a first glimpse into the worlds of Astra Nova and
-                    unlocks exclusive lore and in-game features. Follow the
+                    unlocks exclusive lore and in-game features. <br/><br/>Follow the
                     Deviant Trials on our Discord, or mint your own Deviant
                     below.
                   </p>
                   <div className="flex xs:justify-center xs:items-center sm:items-left sm:justify-left md:items-left md:justify-left lg:items-left lg:justify-left xl:items-left xl:justify-left justify-left items-left w-full flex flex-col">
                     <button
                       type="button"
-                      className=" disabled cursor-not-allowed w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-[#c4400d] hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
+                      className=" disabled animate-pulse cursor-not-allowed w-[200px] inline-flex items-center justify-center py-3  border border-transparent text-base font-semibold rounded-md shadow-sm text-white bg-[#c4400d] hover:bg-teal-600 hover:ease-in-out duration-500 xs:m-auto  sm:m-auto  md:ml-auto lg:ml-0 xl:ml-0 ml-auto md:mr-0 lg:mr-0 xl:mr-0 mr-auto "
                     >
                       Coming Soon
                     </button>
-                    <span className="animate-pulse text-gray-300 mt-4 text-sm xs:text-center sm:text-center md:text-left lg:text-left xl:text-left text-center">
+                    {/* <span className="animate-pulse text-gray-300 mt-4 text-sm xs:text-center sm:text-center md:text-left lg:text-left xl:text-left text-center">
                       * Coming Soon
-                    </span>
+                    </span> */}
                   </div>
                 </motion.span>
               </div>

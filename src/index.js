@@ -2,11 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Term from "./container/Term";
+import Privacy from "./container/Privacy";
+import NoPage from "./container/NoPage";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+          <Route exact path="/" element={<App />} />
+          <Route path="terms" element={<Term />} />
+          <Route path="privacy" element={<Privacy />} />
+          <Route path="*" element={<NoPage />} />
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

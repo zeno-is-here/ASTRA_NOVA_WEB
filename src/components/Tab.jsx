@@ -1,6 +1,5 @@
-import { useUnmountEffect } from "framer-motion";
-import locomotiveScroll from "locomotive-scroll";
-import { useState, useEffect } from "react";
+
+import { useState} from "react";
 
 const tabs = [
     { name: "Management" },

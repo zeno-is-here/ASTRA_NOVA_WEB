@@ -213,7 +213,7 @@ export const team = [
         team: "Artists",
         name: "Sérgio Sampaio",
         role: "Motion Designer",
-        imageUrl: "/imgs/Sérgio Sampaio.jpg",
+        imageUrl: "/imgs/Sergio Sampaio.jpg",
         linkedin: "https://www.linkedin.com/in/sérgio-sampaio",
     },
     {
