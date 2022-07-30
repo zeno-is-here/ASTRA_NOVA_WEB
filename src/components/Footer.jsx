@@ -6,7 +6,7 @@ const navigation = {
     main: [
         { name: "Terms & Conditions", href: "#" },
         { name: "Privacy Policy", href: "#" },
-        // { name: "Wallpaper", href: "#" },
+        { name: "WhitePaper", href: "https://astra-nova.gitbook.io/astra-nova-litepaper-v.1.0/" },
     ],
     social: [
         {
@@ -134,11 +134,8 @@ export default function Footer() {
                         className="object-cover h-16 w-20"
                     />
                 </div>
-                <p className="lg:mt-16 text-center text-base mt-32">
-                    &copy; ASTRA NOVA 2022 © All right reserved
-                </p>
                 <nav
-                    className="mx-5 my-4 flex flex-wrap justify-center"
+                    className="mx-5 my-4 md:mt-8 mt-32 flex flex-wrap justify-center"
                     aria-label="Footer"
                 >
                     {navigation.main.map((item) => (
@@ -152,6 +149,9 @@ export default function Footer() {
                         </div>
                     ))}
                 </nav>
+                <p className="lg:mt-8 text-center text-sm mt-16">
+                    Astra Nova &copy; 2022, All rights reserved
+                </p>
             </div>
         </footer>
     );

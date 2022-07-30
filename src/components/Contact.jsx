@@ -38,7 +38,7 @@ const Contact = () => {
                         "linear-gradient(90deg, rgba(23,79,91,1) 0%, #0c0616 42%, rgba(69,35,36,1) 100%)",
                 }}
             >
-                <div className="max-w-[1240px] mx-auto text-gray-500 pt-12 pb-12 md:pl-8 pl-3 xl:pl-0 lg:mt-40">
+                <div className="max-w-[1240px] mx-auto text-gray-500 pt-12 pb-12 md:pl-8 pl-3 xl:pl-0 lg:mt-24">
                     <div className="left">
                         <h2 className=" text-2xl font-extrabold text-white min-h-[6rem] md:min-h-[2rem]">
                             {text}

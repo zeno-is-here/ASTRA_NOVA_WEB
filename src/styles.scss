@@ -517,6 +517,11 @@ body {
     }
 }
 
+@media screen and (max-width: 767px) {
+    body {
+        background-color: #1f2235  !important;
+    }
+  }
 @-moz-document url-prefix() {
     body {
         background-color: #1f2235  !important;

@@ -35,7 +35,7 @@ const MidSection = () => {
     // }, []);
 //max-w-[1340px]
     return (
-        <div className="w-full py-8 flex flex-row md:mt-40" data-scroll-section>
+        <div className="w-full py-8 flex flex-row " data-scroll-section>
             <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
                 className="background-pattern0"
@@ -47,7 +47,7 @@ const MidSection = () => {
 
             <div className="max-w-full mx-auto text-center flex flex-col ">
                 <h1
-                    className="tk-roma font-title mid-head1 xs:text-4xl sm:text-7xl md:text-7xl lg:text-7xl xl:text-7xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-[10vw] sm:pr-[10vw] md:pr-[10vw] lg:pr-[10vw] xl:pr-[10vw] md:pr-[10vw] md:text-right"
+                    className="tk-roma font-title mid-head1 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-[10vw] sm:pr-[10vw] md:pr-[10vw] lg:pr-[10vw] xl:pr-[10vw] md:pr-[10vw] md:text-right"
                     data-scroll
                 >
                     The end was just the beginning.
@@ -76,13 +76,13 @@ const MidSection = () => {
                         className="mid-text1 last xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full xs:mt-10 sm:mt-10 md:mt-10 lg:mt-0 xl:mt-0 mt-10"
                         data-scroll
                     >
-                        <p className=" text-gray-300  font-normal leading-6 text-right xs:w-full sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-16 lg:pl-16 xl:pl-16 pl-0 xs:text-base  sm:text-base  md:text-base  lg:text-base  xl:text-base  text-base ">
-                        <span className="font-bold">The Five Worlds lie in ruin</span>, casualties of a
-                            celestial war between order and chaos. The Day of
+                        <p className=" text-gray-300  font-normal leading-6 text-left xs:w-full sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:ml-auto sm:ml-auto md:ml-auto lg:ml-auto lg:mr-auto xl:ml-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-16 lg:pl-16 xl:pl-16 pl-4 xs:text-base  sm:text-base  md:text-base  lg:text-base  xl:text-base  text-base ">
+                        <span className="font-bold text-1xl">The Five Worlds lie in ruin</span>, casualties of a
+                            celestial war between order and chaos.<br/> <br/>The Day of
                             Destruction claimed many lives—but there were some
-                            who survived. Those brave enough to enter the
+                            who survived.<br/><br/> Those brave enough to enter the
                             ancient gateways were transported to the last
-                            bastion of hope in the universe:<span className="font-bold">Astra Nova</span>.
+                            bastion of hope in the universe:<span className="font-bold text-1xl">Astra Nova</span>.
                         </p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ const MidSection = () => {
                         src={first}
                     />
                 </div> */}
-                <div className="w-full md:mt-40">
+                <div className="w-full md:mt-8">
                     <div
                         // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
                         className="background-pattern1"
@@ -110,7 +110,7 @@ const MidSection = () => {
                     <motion.span variants={fadeIn()} className="max-w-[1340px]">
                         <h1
                             data-scroll
-                            className="tk-roma font-title mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-7xl md:text-7xl lg:text-7xl xl:text-7xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-8 sm:pl-[10vw] md:pl-[10vw] lg:pl-[10vw] xl:pl-[10vw] md:pl-[10vw] md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 md:text-left"
+                            className="tk-roma font-title mid-head2 eading-normal w-full xs:w-full sm:w-5/6 md:w-5/6 lg:w-4/5 xl:w-4/5 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-8 sm:pl-[10vw] md:pl-[10vw] lg:pl-[10vw] xl:pl-[10vw] md:pl-[10vw] md:pr-5 sm:pr-5 md:pr-0 lg:pr-10 xl:pr-10 md:pr-5 md:text-left"
                         >
                             The future of the universe <br></br>is in your hands.
                         </h1>
@@ -128,12 +128,13 @@ const MidSection = () => {
                                         data-scroll
                                         className="mid-text2 text-gray-300  font-normal leading-6 text-left xs:w-2/3 sm:w-2/3 md:w-2/3 lg:w-full xl:w-full w-full xs:mr-auto sm:mr-auto md:mr-auto lg:mr-auto lg:mr-auto xl:mr-auto xl:mr-auto xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pr-4 sm:pr-16 md:pr-0 lg:pr-0 xl:pr-0 md:pr-16 xs:text-base  sm:text-base  md:text-base  lg:text-base  xl:text-base  text-base "
                                     >
-                                        <span className="text-base font-bold">
+                                        <span className="text-base font-bold text-1xl">
                                             Even on Astra Nova, survival is no
                                             guarantee.
                                         </span>
                                         <br /> <br />
-                                        —for this safe haven harbors deep secrets. Old rivalries threaten to upset the new order, and agents of the darkness lurk around every corner. Those who remain must work together to restore their trust, recover what was lost, and rebuild the world to come—before it's too late.
+                                        For this safe haven harbors deep secrets. Old rivalries threaten to upset the new order, and agents of the darkness lurk around every corner.<br /> <br />
+                                         Those who remain must work together to restore their trust, recover what was lost, and rebuild the world to come—before it's too late.
                                     </p>
                                 </motion.span>
                             </div>
