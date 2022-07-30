@@ -120,9 +120,9 @@ export const team = [
     },
     {
         team: "Marketing",
-        name: "Hafis Riyam",
+        name: "Ren Blaze",
         role: "Recruitment Manager",
-        imageUrl: "/imgs/Hafis Riyam.jpg",
+        imageUrl: "/imgs/Ren Blaze.jpg",
         linkedin: "https://www.linkedin.com/in",
     },
     {
