@@ -27,19 +27,22 @@ const About = () => {
           initial="initial"
           className="min-w-full mx-auto text-center flex flex-col lg:flex-col md:mb-10 md:mt-10"
         >
-          <div>
-            <motion.span variants={fadeIn()}>
+          <div className="flex flex-col sm:flex-row">
+            <div className="xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full">&nbsp;  </div>
+            <div className="xs:w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-full">
+            <motion.span variants={fadeIn()} >
               <h1
                 data-scroll
-                className="tk-roma font-title mid-head3 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300  xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-[10vw] sm:pr-[10vw] md:pr-[10vw] lg:pr-[10vw] xl:pr-[10vw] md:pr-[10vw] xs:text-center sm:text-center md:text-right lg:text-right xl:text-right text-center"
+                className=" tk-roma font-title mid-head3 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300  xs:p-6 sm:p-6 md:p-6 lg:p-0 xl:p-0 p-6 xs:p-4 sm:p-4 md:p-0 lg:p-0 xl:p-0 p-4 xs:pl-16 sm:pl-16 md:pl-16 lg:pl-20 xl:pl-20 pl-0 xs:pr-4 sm:pr-8 md:pr-12 lg:pr-0 xl:pr-0 pr-4 xs:text-center sm:text-center md:text-left lg:text-leftxl:text-left text-center"
               >
                 Meet the Deviants
               </h1>
             </motion.span>
+            </div>
           </div>
           <div className="flex flex-col xs:mt-12 sm:mt-12 md:mt-12 lg:mt-10 xl:mt-10 mt-12 xs:w-full sm:w-full md:w-full lg:w-full xl:w-full w-full items-righttext-right ml-auto ">
             <div className="lg:flex-grow w-full  flex flex-col lg:items-start md:text-left items-center text-right">
-              <div className="max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
+              <div className="max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-8 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
                 <div className=" z-300 flex flex-start place-items-start mb-10 lg:mb-0 xs:w-full sm:w-full md:w-full lg:w-2/3 xl:w-2/3 w-full xs:pr-0 sm:pr-0 md:pr-0 lg:pr-0 xl:pr-0 pr-0 ">
                   {/* Looping video goes here */}
                   <img

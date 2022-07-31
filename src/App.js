@@ -53,7 +53,7 @@ function App() {
         );
         tl.to(".loading-overlay", {
             opacity: 0,
-            delay: 2,
+            delay: 5,
             duration: 0.5,
             onComplete: clear,
         });
@@ -89,7 +89,7 @@ function App() {
             {preLoader ? (
                 <LoadingOverlay title={title} logo={logo} />
             ) : (
-                <div className="main-container app" data-scroll-container>
+                <div className="main-container app">
                     <CustomCursor />
                     <Navbar />
                     <Hero />

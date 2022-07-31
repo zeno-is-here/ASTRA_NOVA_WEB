@@ -38,7 +38,7 @@ const MidSection = () => {
         <div className="w-full py-8 flex flex-row " data-scroll-section>
 
 
-            <div className="max-w-full mx-auto text-center flex flex-col ">
+            <div className="max-w-full mx-auto text-center flex flex-col">
                 <h1
                     className="tk-roma font-title mid-head1 xs:text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-4xl  mt-8 font-bold leading-tight text-teal-300 xs:pl-5 sm:pl-5 md:pl-24 lg:pl-36 xl:pl-80 md:pr-[10vw] sm:pr-[10vw] md:pr-[10vw] lg:pr-[10vw] xl:pr-[10vw] md:pr-[10vw] md:text-right"
                     data-scroll
@@ -46,7 +46,7 @@ const MidSection = () => {
                     The end was just the beginning.
                 </h1>
 
-                <div className=" relative max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
+                <div className="relative max-w-full sm:mr-[50px] md:mr-[10vw] lg:mr-[10vw] my-8 flex mt-16 sm:flex-col xs:flex-col md:flex-col lg:flex-row xl:flex-row flex-col">
                 <div
                 // style={{"opacity: 1;transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);transform-style: preserve-3d;"}}
                 className="background-pattern0 hidden md:block"
@@ -83,7 +83,7 @@ const MidSection = () => {
                             Destruction claimed many lives—but there were some
                             who survived.<br/><br/> Those brave enough to enter the
                             ancient gateways were transported to the last
-                            bastion of hope in the universe:<span className="font-bold text-1xl">Astra Nova</span>.
+                            bastion of hope in the universe: <span className="font-bold text-1xl text-teal-300">Astra Nova</span>.
                         </p>
                     </div>
                 </div>
@@ -112,7 +112,6 @@ const MidSection = () => {
                     <motion.div
                         variants={staggerContainer}
                         initial="inital"
-                        animate="animate"
                         className=" relative xs:w-full sm:ml-[50px] md:ml-[10vw] lg:ml-[10vw] sm:w-full md:w-full lg:w-full xl:w-full w-full  mx-auto text-center flex  xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row flex-col-reverse xs:mt-10 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-0 mt-10"
                     >
                     <div
