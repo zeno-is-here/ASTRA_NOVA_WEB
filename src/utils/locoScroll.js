@@ -18,11 +18,11 @@ export default function useLocoScroll(start) {
 
         setTimeout(() => {
             locoScroll.update();
-        }, 2000);
+        }, 10);
 
         function locomotiveHeightBug() {
             locoScroll.update();
         }
-        setInterval(locomotiveHeightBug, 2000);
+        setInterval(locomotiveHeightBug, 10);
     }, [start]);
 }
