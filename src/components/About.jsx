@@ -2,9 +2,7 @@ import React from "react";
 import about from "../assets/deviants.png";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "./motionVariants";
-import useWindowSize from "../hooks/responsive";
 const About = () => {
-  const size = useWindowSize();
   return (
     <>
       <div

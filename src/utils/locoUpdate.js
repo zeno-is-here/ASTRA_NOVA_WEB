@@ -19,6 +19,6 @@ export default function useUpdateLocoScroll() {
         setTimeout(() => {
             console.log("HELL");
             locoScroll.update();
-        }, 1000);
+        }, 10);
     }, []);
 }
