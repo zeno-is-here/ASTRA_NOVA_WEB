@@ -281,7 +281,7 @@ export const team = [
     },
     {
         team: "Advisors",
-        name: "Akash Agrawa",
+        name: "Akash Agrawal",
         role: "Growth Strategist & Brand Builder, Ex Sony, Nike, Walmart NFT Metaverse Web3 Consultant Angel Investor",
         imageUrl: "/imgs/Akash Agrawal.jpg",
         linkedin: "https://www.linkedin.com/in",
