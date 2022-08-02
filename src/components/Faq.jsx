@@ -60,7 +60,7 @@ export default function Faq() {
                                                 dangerouslySetInnerHTML={{
                                                     __html: faq.answer,
                                                 }}
-                                                className="text-base text-[#595959]"
+                                                className="text-base text-[#ffffff]"
                                             ></p>
                                         </Disclosure.Panel>
                                     </Transition>
