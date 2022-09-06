@@ -260,13 +260,6 @@ export const team = [
     },
     {
         team: "Advisors",
-        name: "Edouard Faure Cooper",
-        role: "Web3 Startup Advisor to: Portal Finance, Affy, Investdex.io, Zam & KOL for Sidus, Netvrk, Lunaverse.",
-        imageUrl: "/imgs/Edouard Faure Cooper.jpg",
-        linkedin: "https://www.linkedin.com/in",
-    },
-    {
-        team: "Advisors",
         name: "Saiprasad Raut",
         role: "Co-Chair Technical & Product. Committee of Hedera.",
         imageUrl: "/imgs/Sai Prasad Raut.jpg",
