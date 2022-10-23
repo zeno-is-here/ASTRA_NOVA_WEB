@@ -2,7 +2,7 @@ import React from "react";
 import planet from "../utils/Planet.jpg";
 import planetMobile from "../utils/Planet_Mobile.jpg";
 import portalMobile from "../utils/Portal-Mobile.jpg";
-import portal from "../utils/Portal.jpg";
+import portal from "../utils/portal.jpg";
 import { motion } from "framer-motion";
 import useWindowSize from "../hooks/responsive";
 import { fadeIn, staggerContainer } from "./motionVariants";
